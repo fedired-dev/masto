@@ -17,7 +17,7 @@ module Fedired
     end
 
     def default_prerelease
-      'alpha.1'
+      '-beta.1'
     end
 
     def prerelease
@@ -50,7 +50,7 @@ module Fedired
     end
 
     def repository
-      ENV.fetch('GITHUB_REPOSITORY', 'fedired-dev/masto')
+      ENV.fetch('GITHUB_REPOSITORY', 'fedired-dev/fedired')
     end
 
     def source_base_url
