@@ -1,5 +1,5 @@
 {
-  "name": "@fedired-dev/masto",
+  "name": "@fedired-dev/fedired",
   "license": "AGPL-3.0-or-later",
   "packageManager": "yarn@4.5.3",
   "engines": {
