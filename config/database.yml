@@ -6,6 +6,7 @@ default: &default
   encoding: unicode
   sslmode: <%= ENV['DB_SSLMODE'] || "prefer" %>
   application_name: ''
+  template: template0
 
 development:
   primary:
