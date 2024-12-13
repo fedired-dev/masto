@@ -262,7 +262,7 @@ export const Profile: React.FC<{
                   id='note'
                   value={note}
                   onChange={handleNoteChange}
-                  maxLength={500}
+                  maxLength={2000}
                 />
               </div>
             </div>
