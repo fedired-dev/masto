@@ -72,8 +72,8 @@ describe('emoji_index', () => {
         custom: true,
       },
     ];
-    expect(search('masto').map(trimEmojis)).toEqual(lightExpected);
-    expect(emojiIndex.search('masto').map(trimEmojis)).toEqual(expected);
+    expect(search('fedired').map(trimEmojis)).toEqual(lightExpected);
+    expect(emojiIndex.search('fedired').map(trimEmojis)).toEqual(expected);
   });
 
   it('(different behavior from emoji-mart) erases custom emoji if another is passed', () => {
@@ -92,8 +92,8 @@ describe('emoji_index', () => {
     search('', { custom });
     emojiIndex.search('', { custom });
     const expected = [];
-    expect(search('masto', { custom: [] }).map(trimEmojis)).toEqual(expected);
-    expect(emojiIndex.search('masto').map(trimEmojis)).toEqual(expected);
+    expect(search('fedired', { custom: [] }).map(trimEmojis)).toEqual(expected);
+    expect(emojiIndex.search('fedired').map(trimEmojis)).toEqual(expected);
   });
 
   it('handles custom emoji', () => {
@@ -117,8 +117,8 @@ describe('emoji_index', () => {
         custom: true,
       },
     ];
-    expect(search('masto', { custom }).map(trimEmojis)).toEqual(expected);
-    expect(emojiIndex.search('masto', { custom }).map(trimEmojis)).toEqual(expected);
+    expect(search('fedired', { custom }).map(trimEmojis)).toEqual(expected);
+    expect(emojiIndex.search('fedired', { custom }).map(trimEmojis)).toEqual(expected);
   });
 
   it('should filter only emojis we care about, exclude pineapple', () => {
