@@ -85,7 +85,7 @@ RSpec.describe InstancePresenter do
       end
 
       it 'defaults to the core fedired repo URL' do
-        expect(instance_presenter.source_url).to eq('https://github.com/fedired-dev/masto')
+        expect(instance_presenter.source_url).to eq('https://github.com/fedired-dev/fedired')
       end
     end
   end

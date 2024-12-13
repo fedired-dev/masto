@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-REPOSITORY_NAME = 'fedired-dev/masto'
+REPOSITORY_NAME = 'fedired-dev/fedired'
 
 namespace :repo do
   desc 'Generate the AUTHORS.md file'

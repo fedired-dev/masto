@@ -108,7 +108,7 @@ su - fedired
 Usa `git` para descargar la última versión estable de Fedired:
 
 ```bash
-git clone https://github.com/fedired-dev/masto.git live && cd live
+git clone https://github.com/fedired-dev/fedired.git live && cd live
 git checkout $(git tag -l | grep '^v[0-9.]*$' | sort -V | tail -n 1)
 ```
 

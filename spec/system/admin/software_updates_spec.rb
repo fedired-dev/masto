@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'finding software updates through the admin interface' do
   before do
-    Fabricate(:software_update, version: '99.99.99', type: 'major', urgent: true, release_notes: 'https://github.com/fedired-dev/masto/releases/v99')
+    Fabricate(:software_update, version: '99.99.99', type: 'major', urgent: true, release_notes: 'https://github.com/fedired-dev/fedired/releases/v99')
 
     sign_in Fabricate(:user, role: UserRole.find_by(name: 'Owner')), scope: :user
   end
@@ -18,6 +18,6 @@ RSpec.describe 'finding software updates through the admin interface' do
     expect(page).to have_content('99.99.99')
 
     click_on I18n.t('admin.software_updates.release_notes')
-    expect(page).to have_current_path('https://github.com/fedired-dev/masto/releases/v99', url: true)
+    expect(page).to have_current_path('https://github.com/fedired-dev/fedired/releases/v99', url: true)
   end
 end

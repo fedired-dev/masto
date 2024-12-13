@@ -1,7 +1,7 @@
 {
   "name": "Fedired",
   "description": "A GNU Social-compatible microblogging server",
-  "repository": "https://github.com/fedired-dev/masto",
+  "repository": "https://github.com/fedired-dev/fedired",
   "logo": "https://github.com/fedired-dev.png",
   "env": {
     "LOCAL_DOMAIN": {

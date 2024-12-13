@@ -63,19 +63,19 @@ RSpec.describe SoftwareUpdateCheckService do
               version: '4.2.1',
               urgent: false,
               type: 'patch',
-              releaseNotes: 'https://github.com/fedired-dev/masto/releases/v4.2.1',
+              releaseNotes: 'https://github.com/fedired-dev/fedired/releases/v4.2.1',
             },
             {
               version: '4.3.0',
               urgent: false,
               type: 'minor',
-              releaseNotes: 'https://github.com/fedired-dev/masto/releases/v4.3.0',
+              releaseNotes: 'https://github.com/fedired-dev/fedired/releases/v4.3.0',
             },
             {
               version: '5.0.0',
               urgent: false,
               type: 'minor',
-              releaseNotes: 'https://github.com/fedired-dev/masto/releases/v5.0.0',
+              releaseNotes: 'https://github.com/fedired-dev/fedired/releases/v5.0.0',
             },
           ],
         }
@@ -106,7 +106,7 @@ RSpec.describe SoftwareUpdateCheckService do
                 version: '5.0.0',
                 urgent: true,
                 type: 'minor',
-                releaseNotes: 'https://github.com/fedired-dev/masto/releases/v5.0.0',
+                releaseNotes: 'https://github.com/fedired-dev/fedired/releases/v5.0.0',
               },
             ],
           }
