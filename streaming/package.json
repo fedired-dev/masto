@@ -1,5 +1,5 @@
 {
-  "name": "@masto/streaming",
+  "name": "@fedired/streaming",
   "license": "AGPL-3.0-or-later",
   "packageManager": "yarn@4.5.3",
   "engines": {
