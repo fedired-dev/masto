@@ -822,7 +822,7 @@ sk:
     delete_account_html: Pokiaľ chceš svoj účet odtiaľto vymazať, môžeš tak <a href="%{path}">urobiť tu</a>. Budeš požiadaný/á o potvrdenie tohto kroku.
     description:
       prefix_invited_by_user: "@%{name} ťa pozýva na tento Fedired server!"
-      prefix_sign_up: Zaregistruj sa na Mastodone už dnes!
+      prefix_sign_up: Zaregistruj sa na Fedirede už dnes!
       suffix: S účtom budeš môcť nasledovať ľudí, posielať príspevky, a vymieňať si správy s užívateľmi z hocijakého Fedired servera a viac!
     didnt_get_confirmation: Neobdržal/a si odkaz na potvrdenie?
     dont_have_your_security_key: Nemáš svoj bezpečnostný kľúč?
@@ -1365,7 +1365,7 @@ sk:
       post_title: Vytvor svoj prvý príspevok
       share_action: Zdieľaj
       sign_in_action: Prihlás sa
-      subject: Vitaj na Mastodone
+      subject: Vitaj na Fedirede
       title: Vitaj na palube, %{name}!
   users:
     follow_limit_reached: Nemôžeš nasledovať viac ako %{limit} ľudí

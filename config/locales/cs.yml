@@ -1,7 +1,7 @@
 ---
 cs:
   about:
-    about_fedired_html: 'Sociální síť budoucnosti: žádné reklamy, žádné korporátní sledování, etický design a decentralizace! S Mastodonem vlastníte svoje data!'
+    about_fedired_html: 'Sociální síť budoucnosti: žádné reklamy, žádné korporátní sledování, etický design a decentralizace! S Fediredem vlastníte svoje data!'
     contact_missing: Nenastaveno
     contact_unavailable: Neuvedeno
     hosted_on: Fedired na doméně %{domain}
@@ -750,21 +750,21 @@ cs:
         preamble: Přizpůsobte si webové rozhraní Fedired.
         title: Vzhled
       branding:
-        preamble: Značka vašeho serveru jej odlišuje od ostatních serverů v síti. Tyto informace se mohou zobrazovat v různých prostředích, například ve webovém rozhraní Mastodonu, v nativních aplikacích, v náhledech odkazů na jiných webových stránkách a v aplikacích pro zasílání zpráv atd. Z tohoto důvodu je nejlepší, aby tyto informace byly jasné, krátké a stručné.
+        preamble: Značka vašeho serveru jej odlišuje od ostatních serverů v síti. Tyto informace se mohou zobrazovat v různých prostředích, například ve webovém rozhraní Fediredu, v nativních aplikacích, v náhledech odkazů na jiných webových stránkách a v aplikacích pro zasílání zpráv atd. Z tohoto důvodu je nejlepší, aby tyto informace byly jasné, krátké a stručné.
         title: Značka
       captcha_enabled:
         desc_html: Toto spoléhá na externí skripty z hCaptcha, což může být budit obavy o bezpečnost a soukromí. Navíc <strong>to může způsobit, že proces registrace bude pro některé osoby (zejména se zdravotním postižením) hůře přístupný</strong>. Z těchto důvodů zvažte alternativní přístup, jako je schvalování registrace nebo pozvánky.
         title: Vyžadovat po nových uživatelích, aby vyřešili CAPTCHU pro potvrzení jejich účtu
       content_retention:
         danger_zone: Nebezpečná zóna
-        preamble: Určuje, jak je obsah generovaný uživatelem uložen v Mastodonu.
+        preamble: Určuje, jak je obsah generovaný uživatelem uložen v Fediredu.
         title: Uchovávání obsahu
       default_noindex:
         desc_html: Ovlivňuje všechny uživatele, kteří toto nastavení sami nezměnili
         title: Odhlásit uživatele ze standardního indexování vyhledávačů
       discovery:
         follow_recommendations: Doporučená sledování
-        preamble: Povrchový zajímavý obsah je užitečný pro zapojení nových uživatelů, kteří možná neznají žádného Mastodona. Mějte pod kontrolou, jak různé objevovací funkce fungují na vašem serveru.
+        preamble: Povrchový zajímavý obsah je užitečný pro zapojení nových uživatelů, kteří možná neznají žádného Fedireda. Mějte pod kontrolou, jak různé objevovací funkce fungují na vašem serveru.
         profile_directory: Adresář profilů
         public_timelines: Veřejné časové osy
         publish_discovered_servers: Zveřejnit objevené servery
@@ -870,10 +870,10 @@ cs:
         message_html: Pro %{value} frontu/fronty neběží žádný Sidekiq proces. Zkontrolujte prosím svou Sidekiq konfiguraci
       software_version_critical_check:
         action: Zobrazit dostupné aktualizace
-        message_html: K dispozici je kritická aktualizace Mastodonu, prosím aktualizujte co nejrychleji.
+        message_html: K dispozici je kritická aktualizace Fediredu, prosím aktualizujte co nejrychleji.
       software_version_patch_check:
         action: Zobrazit dostupné aktualizace
-        message_html: Je dostupná opravná aktualizace Mastodonu.
+        message_html: Je dostupná opravná aktualizace Fediredu.
       upload_check_privacy_error:
         action: Pro více informací se podívejte zde
         message_html: "<strong>Váš webový server je špatně nakonfigurován. Soukromí vašich uživatelů je ohroženo.</strong>"
@@ -978,7 +978,7 @@ cs:
     webhooks:
       add_new: Přidat koncový bod
       delete: Smazat
-      description_html: "<strong>Webhook</strong> umožňuje Mastodonu o vybraných událostech <strong>notifikovat v reálném čase</strong> vaši vlastní aplikaci, aby mohla <strong>automaticky spouštět reakce</strong>."
+      description_html: "<strong>Webhook</strong> umožňuje Fediredu o vybraných událostech <strong>notifikovat v reálném čase</strong> vaši vlastní aplikaci, aby mohla <strong>automaticky spouštět reakce</strong>."
       disable: Vypnout
       disabled: Vypnuto
       edit: Upravit koncový bod
@@ -1014,8 +1014,8 @@ cs:
       next_steps: Můžete schválit odvolání pro vrácení rozhodnutí moderátora, nebo to ignorovat.
       subject: Uživatel %{username} se odvolává proti rozhodnutí moderátora na %{instance}
     new_critical_software_updates:
-      body: Byly vydány nové kritické verze Mastodonu, možná budete chtít aktualizovat co nejdříve!
-      subject: Pro %{instance} jsou dostupné kritické aktualizace Mastodonu!
+      body: Byly vydány nové kritické verze Fediredu, možná budete chtít aktualizovat co nejdříve!
+      subject: Pro %{instance} jsou dostupné kritické aktualizace Fediredu!
     new_pending_account:
       body: Detaily nového účtu jsou uvedeny níže. Tuto žádost můžete schválit nebo zamítnout.
       subject: Nový účet na serveru %{instance} čekající na posouzení (%{username})
@@ -1024,8 +1024,8 @@ cs:
       body_remote: Někdo z domény %{domain} nahlásil uživatele %{target}
       subject: Nové hlášení pro %{instance} (#%{id})
     new_software_updates:
-      body: Byly vydány nové verze Mastodonu, možná budete chtít aktualizovat!
-      subject: Pro %{instance} jsou dostupné nové verze Mastodonu!
+      body: Byly vydány nové verze Fediredu, možná budete chtít aktualizovat!
+      subject: Pro %{instance} jsou dostupné nové verze Fediredu!
     new_trends:
       body: 'Následující položky vyžadují posouzení, než mohou být zobrazeny veřejně:'
       new_trending_links:
@@ -1085,7 +1085,7 @@ cs:
     delete_account_html: Chcete-li odstranit svůj účet, <a href="%{path}">pokračujte zde</a>. Budete požádáni o potvrzení.
     description:
       prefix_invited_by_user: "@%{name} vás zve na tento server Fedired!"
-      prefix_sign_up: Registrujte se na Mastodonu již dnes!
+      prefix_sign_up: Registrujte se na Fediredu již dnes!
       suffix: S účtem budete moci sledovat lidi, psát příspěvky a vyměňovat si zprávy s uživateli z kteréhokoliv serveru Fedired a dalších služeb!
     didnt_get_confirmation: Neobdrželi jste potvrzovací odkaz?
     dont_have_your_security_key: Nemáte svůj bezpečnostní klíč?
@@ -1537,7 +1537,7 @@ cs:
     posting_defaults: Výchozí možnosti psaní
     public_timelines: Veřejné časové osy
   privacy:
-    hint_html: "<strong>Nastavte si, jak chcete, aby šlo váš profil a vaše příspěvky nalézt.</strong> Řada funkcí v Mastodonu vám může po zapnutí pomoci získat širší publikum. Věnujte chvíli kontrole těchto nastavení, aby vyhovovala vašim potřebám."
+    hint_html: "<strong>Nastavte si, jak chcete, aby šlo váš profil a vaše příspěvky nalézt.</strong> Řada funkcí v Fediredu vám může po zapnutí pomoci získat širší publikum. Věnujte chvíli kontrole těchto nastavení, aby vyhovovala vašim potřebám."
     privacy: Soukromí
     privacy_hint_html: Nastavte si, kolik toho chcete zveřejnit ve prospěch ostatních. Lidé objevují zajímavé profily a skvělé aplikace procházením sledovaných ostatních lidí i tím, že vidí, z jakých aplikací ostatní posílají příspěvky, vy se však můžete rozhodnout tyto údaje skrýt.
     reach: Dosah
@@ -1885,10 +1885,10 @@ cs:
       post_step: Řekněte světu ahoj pomocí textu, fotografií, videí nebo anket.
       post_title: Vytvořte svůj první příspěvek
       share_action: Sdílet
-      share_step: Dejte přátelům vědět, jak vás mohou na Mastodonu najít.
+      share_step: Dejte přátelům vědět, jak vás mohou na Fediredu najít.
       share_title: Sdílejte svůj Fedired profil
       sign_in_action: Přihlásit se
-      subject: Vítejte na Mastodonu
+      subject: Vítejte na Fediredu
       title: Vítejte na palubě, %{name}!
   users:
     follow_limit_reached: Nemůžete sledovat více než %{limit} lidí
@@ -1900,7 +1900,7 @@ cs:
   verification:
     extra_instructions_html: <strong>Tip:</strong> Odkaz na vaší webové stránce může být neviditelný. Důležitou součástí je <code>rel="me"</code>, která brání proti napodování vás na webových stránkách s obsahem vytvořeným uživatelem. Můžete dokonce použít <code>odkaz</code> v záhlaví stránky místo <code>a</code>, ale HTML musí být přístupné bez spuštění JavaScript.
     here_is_how: Jak na to
-    hint_html: "<strong>Ověření Vaší identity na Mastodonu je pro každého výborné.</strong> Na základě otevřených webových standardů, nyní a navždy zdarma. Jediné, co potřebujete, je osobní webová stránka, na které vás lidé poznají. Když odkazujete na tuto stránku z vašeho profilu, zkontrolujeme, zda webové stránky odkazují na váš profil a zobrazí na něm vizuální indikátor."
+    hint_html: "<strong>Ověření Vaší identity na Fediredu je pro každého výborné.</strong> Na základě otevřených webových standardů, nyní a navždy zdarma. Jediné, co potřebujete, je osobní webová stránka, na které vás lidé poznají. Když odkazujete na tuto stránku z vašeho profilu, zkontrolujeme, zda webové stránky odkazují na váš profil a zobrazí na něm vizuální indikátor."
     instructions_html: Zkopírujte a vložte níže uvedený kód do HTML vašeho webu. Poté přidejte adresu vašeho webu do jednoho z extra políček na vašem profilu na záložce "Upravit profil" a uložte změny.
     verification: Ověření
     verified_links: Vaše ověřené odkazy

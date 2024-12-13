@@ -13,12 +13,12 @@ import { createBrowserHistory } from 'history';
 import { layoutFromWindow } from 'fedired/is_mobile';
 import { isDevelopment } from 'fedired/utils/environment';
 
-interface MastodonLocationState {
-  fromMastodon?: boolean;
+interface FediredLocationState {
+  fromFedired?: boolean;
   fediredModalKey?: string;
 }
 
-type LocationState = MastodonLocationState | null | undefined;
+type LocationState = FediredLocationState | null | undefined;
 
 type HistoryPath = Path | LocationDescriptor<LocationState>;
 
@@ -60,23 +60,23 @@ function normalizePath(
   return location;
 }
 
-browserHistory.push = (path: HistoryPath, state?: MastodonLocationState) => {
+browserHistory.push = (path: HistoryPath, state?: FediredLocationState) => {
   const location = normalizePath(path, state);
 
   location.state = location.state ?? {};
-  location.state.fromMastodon = true;
+  location.state.fromFedired = true;
 
   originalPush(location);
 };
 
-browserHistory.replace = (path: HistoryPath, state?: MastodonLocationState) => {
+browserHistory.replace = (path: HistoryPath, state?: FediredLocationState) => {
   const location = normalizePath(path, state);
 
   if (!location.pathname) return;
 
-  if (browserHistory.location.state?.fromMastodon) {
+  if (browserHistory.location.state?.fromFedired) {
     location.state = location.state ?? {};
-    location.state.fromMastodon = true;
+    location.state.fromFedired = true;
   }
 
   originalReplace(location);

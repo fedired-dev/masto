@@ -293,7 +293,7 @@
   "interaction_modal.description.follow": "Gant ur gont Fedired e c'hellit heuliañ {name} evit resev an toudoù a embann war ho red degemer.",
   "interaction_modal.description.reblog": "Gant ur gont Fedired e c'hellit skignañ an toud-mañ evit rannañ anezhañ gant ho heulierien·ezed.",
   "interaction_modal.description.reply": "Gant ur gont Fedired e c'hellit respont d'an toud-mañ.",
-  "interaction_modal.no_account_yet": "N'emañ ket war vMastodon?",
+  "interaction_modal.no_account_yet": "N'emañ ket war vFedired?",
   "interaction_modal.on_another_server": "War ur servijer all",
   "interaction_modal.on_this_server": "War ar servijer-mañ",
   "interaction_modal.title.favourite": "Ouzhpennañ embannadur {name} d'ar re vuiañ-karet",

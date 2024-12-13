@@ -1,7 +1,7 @@
 ---
 hu:
   about:
-    about_fedired_html: 'A jövő közösségi hálózata: Hirdetések és céges megfigyelés nélkül, etikus dizájnnal és decentralizációval! Legyél a saját adataid ura a Mastodonnal!'
+    about_fedired_html: 'A jövő közösségi hálózata: Hirdetések és céges megfigyelés nélkül, etikus dizájnnal és decentralizációval! Legyél a saját adataid ura a Fedirednal!'
     contact_missing: Nincs megadva
     contact_unavailable: N/A
     hosted_on: "%{domain} Fedired-kiszolgáló"
@@ -771,14 +771,14 @@ hu:
         title: Az új felhasználóknak egy CAPTCHA-t kell megoldaniuk, hogy megerősítsék a fiókjuk regisztrációját
       content_retention:
         danger_zone: Veszélyzóna
-        preamble: A felhasználók által előállított tartalom Mastodonon való tárolásának szabályozása.
+        preamble: A felhasználók által előállított tartalom Fediredon való tárolásának szabályozása.
         title: Tartalom megtartása
       default_noindex:
         desc_html: Azokat a felhasználókat érinti, akik nem módosították ezt a beállítást
         title: Alapértelmezetten ne indexeljék a keresők a felhasználókat
       discovery:
         follow_recommendations: Ajánlottak követése
-        preamble: Az érdekes tartalmak felszínre hozása fontos szerepet játszik az új felhasználók bevonásában, akik esetleg nem ismerik a Mastodont. Szabályozd, hogy a különböző felfedezési funkciók hogyan működjenek a kiszolgálón.
+        preamble: Az érdekes tartalmak felszínre hozása fontos szerepet játszik az új felhasználók bevonásában, akik esetleg nem ismerik a Fediredt. Szabályozd, hogy a különböző felfedezési funkciók hogyan működjenek a kiszolgálón.
         profile_directory: Profiladatbázis
         public_timelines: Nyilvános idővonalak
         publish_discovered_servers: Felfedezett kiszolgálók közzététele
@@ -1078,7 +1078,7 @@ hu:
     confirmation_dialogs: Megerősítő párbeszédablakok
     discovery: Felfedezés
     localization:
-      body: A Mastodont önkéntesek fordítják.
+      body: A Fediredt önkéntesek fordítják.
       guide_link: https://crowdin.com/project/fedired
       guide_link_text: Bárki közreműködhet.
     sensitive_content: Kényes tartalom
@@ -1118,7 +1118,7 @@ hu:
     delete_account_html: Felhasználói fiókod törléséhez <a href="%{path}">kattints ide</a>. A rendszer újbóli megerősítést fog kérni.
     description:
       prefix_invited_by_user: "@%{name} meghív téged, hogy csatlakozz ehhez a Fedired-kiszolgálóhoz."
-      prefix_sign_up: Regisztrláj még ma a Mastodonra!
+      prefix_sign_up: Regisztrláj még ma a Fediredra!
       suffix: Egy fiókkal követhetsz másokat, bejegyzéseket tehetsz közzé, eszmét cserélhetsz más Fedired szerverek felhasználóival!
     didnt_get_confirmation: Nem kaptál visszaigazoló hivatkozást?
     dont_have_your_security_key: Nincs biztonsági kulcsod?
@@ -1177,7 +1177,7 @@ hu:
     use_security_key: Biztonsági kulcs használata
   author_attribution:
     example_title: Mintaszöveg
-    hint_html: Mastodonon kívül írsz híreket vagy blogbejegyzéseket? Szabályozd, hogyan tüntethetnek fel szerzőként, amikor Mastodonon osztják meg őket.
+    hint_html: Fediredon kívül írsz híreket vagy blogbejegyzéseket? Szabályozd, hogyan tüntethetnek fel szerzőként, amikor Fediredon osztják meg őket.
     instructions: 'Győződj meg róla, hogy ez a kód a cikked HTML-jében van:'
     more_from_html: 'Több tőle: %{name}'
     s_blog: "%{name} blogja"
@@ -1628,7 +1628,7 @@ hu:
     reach: Elérés
     reach_hint_html: Szabályozd, hogy szeretnéd-e, hogy új emberek felfedezzenek és kövessenek. Szeretnéd, hogy a bejegyzéseid megjelenjenek a Felfedezés képernyőn? Szeretnéd, hogy mások is lássanak téged a követési ajánlataikban? Szeretnéd automatikusan elfogadni az összes új követőt vagy egyesével szabályozni mindegyiket?
     search: Keresés
-    search_hint_html: Irányítsd, hogyan találjanak meg. Szeretnéd, hogy az emberek megtaláljanak az alapján, amiről nyilvános bejegyzést írtál? Szeretnéd, hogy a Mastodonon kívüli emberek megtalálják a profilodat, amikor az interneten keresnek? Ne feledd, hogy a nyilvános információk esetében nem garantálható az összes keresőmotorból való teljes kizárás.
+    search_hint_html: Irányítsd, hogyan találjanak meg. Szeretnéd, hogy az emberek megtaláljanak az alapján, amiről nyilvános bejegyzést írtál? Szeretnéd, hogy a Fediredon kívüli emberek megtalálják a profilodat, amikor az interneten keresnek? Ne feledd, hogy a nyilvános információk esetében nem garantálható az összes keresőmotorból való teljes kizárás.
     title: Adatvédelem és elérés
   privacy_policy:
     title: Adatvédelmi irányelvek
@@ -1729,7 +1729,7 @@ hu:
     aliases: Fiók aliasok
     appearance: Megjelenés
     authorized_apps: Jóváhagyott alkalmazások
-    back: Vissza a Mastodonhoz
+    back: Vissza a Fediredhoz
     delete: Fiók törlése
     development: Fejlesztőknek
     edit_profile: Profil szerkesztése
@@ -1943,7 +1943,7 @@ hu:
       feature_audience_title: Építsd magabiztosan a közönségedet
       feature_control: Te tudod legjobban, hogy mit szeretnél látni a kezdőlapodon. Nincsenek algoritmusok vagy reklámok, melyek pazarolnák az idődet. Kövess bárkit, bármelyik Fedired-kiszolgálón, egyetlen fiókkal, és fogadd a bejegyzéseiket időrendi sorrendben, így a saját ízlésednek tetszővé teheted az internet egy kis szegletét.
       feature_control_title: Vedd kézbe az idővonalad feletti irányítást
-      feature_creativity: A Fedired támogatja a hangot, a videót és a képeket tartalmazó bejegyzéseket, az akadálymentesítési leírásokat, a szavazásokat, a tartalmi figyelmeztetéseket, az animált profilképeket, az egyéni emodzsikat, a bélyegképek körbevágását és még több mindent, hogy segítsen az online önkifejezésben. Tegyél közzé műalkotásokat, zenét vagy podcastet, a Mastodonra számíthatsz.
+      feature_creativity: A Fedired támogatja a hangot, a videót és a képeket tartalmazó bejegyzéseket, az akadálymentesítési leírásokat, a szavazásokat, a tartalmi figyelmeztetéseket, az animált profilképeket, az egyéni emodzsikat, a bélyegképek körbevágását és még több mindent, hogy segítsen az online önkifejezésben. Tegyél közzé műalkotásokat, zenét vagy podcastet, a Fediredra számíthatsz.
       feature_creativity_title: Páratlan kreativitás
       feature_moderation: A Fedired visszaadja a döntést a te kezedbe. Minden kiszolgáló saját szabályokkal rendelkezik, melyeket helyben tartatnak be, és nem központilag, mint a céges közösségi médiánál, így a lehető legrugalmasabban lehet válaszolni emberek különböző csoportjainak igényeire. Csatlakozz egy kiszolgálóhoz, melynek egyetértesz a szabályaival, vagy készíts egy sajátot.
       feature_moderation_title: Moderálás, ahogy annak lennie kell
@@ -1963,7 +1963,7 @@ hu:
       post_step: Köszöntsd a világot szöveggel, fotókkal, videókkal vagy szavazásokkal.
       post_title: Az első bejegyzés létrehozása
       share_action: Megosztás
-      share_step: Tudasd az ismerőseiddel, hogyan találhatnak meg a Mastodonon.
+      share_step: Tudasd az ismerőseiddel, hogyan találhatnak meg a Fediredon.
       share_title: Oszd meg a Fedired profilodat
       sign_in_action: Bejelentkezés
       subject: Üdvözöl a Fedired
@@ -1979,7 +1979,7 @@ hu:
   verification:
     extra_instructions_html: <strong>Tipp:</strong> A hivatkozás a weboldaladon lehet láthatatlan. A fontos rész a <code>rel="me"</code>, mely megakadályozza, hogy mások a nevedben lépjenek fel olyan oldalakon, ahol van felhasználók által előállított tartalom. A <code>link</code> tag-et az oldal fejlécében is használhatod az <code>a</code> tag helyett, de a HTML-nek elérhetőnek kell lennie JavaScript futtatása nélkül is.
     here_is_how: Itt van, hogyan kell
-    hint_html: "<strong>A személyazonosságod ellenőrizhetősége a Mastodonon mindenki számára elérhető.</strong> Ez nyílt webes szabványok alapján, most és mindörökké szabadon és ingyenesen történik. Ehhez csak egy saját weboldalra van szükséged, mely alapján mások felismernek téged. Ha a profilodról erre a weboldalra hivatkozol, mi ellenőrizzük, hogy erről az oldalról visszahivatkozol-e a profilodra, és siker esetén erről vizuális jelzést is adunk a profilodon."
+    hint_html: "<strong>A személyazonosságod ellenőrizhetősége a Fediredon mindenki számára elérhető.</strong> Ez nyílt webes szabványok alapján, most és mindörökké szabadon és ingyenesen történik. Ehhez csak egy saját weboldalra van szükséged, mely alapján mások felismernek téged. Ha a profilodról erre a weboldalra hivatkozol, mi ellenőrizzük, hogy erről az oldalról visszahivatkozol-e a profilodra, és siker esetén erről vizuális jelzést is adunk a profilodon."
     instructions_html: Az alábbi kódot másold be a weboldalad HTML kódjába. Ezután add hozzá a weboldalad címét a profilod egyik extra mezőjéhez a "Profil szerkesztése" fülön és mentsd a változásokat.
     verification: Ellenőrzés
     verified_links: Ellenőrzött hivatkozásaid

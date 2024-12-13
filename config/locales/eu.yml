@@ -1,7 +1,7 @@
 ---
 eu:
   about:
-    about_fedired_html: 'Etorkizuneko sare soziala: ez iragarkirik eta ez zelatatze korporatiborik, diseinu etikoa eta deszentralizazioa! Izan zure datuen jabea Mastodonekin!'
+    about_fedired_html: 'Etorkizuneko sare soziala: ez iragarkirik eta ez zelatatze korporatiborik, diseinu etikoa eta deszentralizazioa! Izan zure datuen jabea Fediredekin!'
     contact_missing: Ezarri gabe
     contact_unavailable: E/E
     hosted_on: Fedired %{domain} domeinuan ostatatua
@@ -653,7 +653,7 @@ eu:
         moderation: Moderazioa
         special: Berezia
       delete: Ezabatu
-      description_html: "<strong>Erabiltzaile rolak</strong> erabiliz erabiltzaileek Mastodonen ze funtzio eta lekutara sarbidea duten pertsonalizatu dezakezu."
+      description_html: "<strong>Erabiltzaile rolak</strong> erabiliz erabiltzaileek Fedireden ze funtzio eta lekutara sarbidea duten pertsonalizatu dezakezu."
       edit: Editatu '%{name}' rola
       everyone: Baimen lehenetsiak
       everyone_full_description_html: Hau <strong>erabiltzaile guztiei</strong> eragiten dien <strong>oinarrizko rola</strong> da, rol bat esleitu gabekoei ere bai. Gainerako rolek honetatik heredatzen dituzte baimenak.
@@ -714,24 +714,24 @@ eu:
         rules_hint: Erabiltzaileek jarraitu behar dituzten arauei eskainitako atal bat dago.
         title: Honi buruz
       appearance:
-        preamble: Mastodonen web interfazea pertsonalizatu.
+        preamble: Fedireden web interfazea pertsonalizatu.
         title: Itxura
       branding:
-        preamble: 'Zure zerbitzariaren markak sareko beste zerbitzarietatik bereizten du. Informazio hau hainbat ingurunetan bistaratuko da: Mastodonen web interfazean, aplikazio natiboetan, esteken aurrebistak beste webguneetan eta mezularitza aplikazioetan eta abar. Horregatik, informazio hau garbia eta laburra izatea komeni da.'
+        preamble: 'Zure zerbitzariaren markak sareko beste zerbitzarietatik bereizten du. Informazio hau hainbat ingurunetan bistaratuko da: Fedireden web interfazean, aplikazio natiboetan, esteken aurrebistak beste webguneetan eta mezularitza aplikazioetan eta abar. Horregatik, informazio hau garbia eta laburra izatea komeni da.'
         title: Marka
       captcha_enabled:
         desc_html: Hori egiteko hCaptcha-ko scriptak behar dira, hirugarrenenak izanik, segurtasun eta pribatutasun arazoak ekarri ditzaketeenak. Horrez gain, <strong>script horiengatik nabarmen zailagoa egiten zaie pertsona batzuei izena ematea (batez ere desgaitasunen bat duenei)</strong>. Hori dela eta, hausnartu beste neurri batzuk hartu ditzakezun, esaterako onarpenean oinarritutako izen ematea, edo gonbidapenen bidezkoa.
         title: Eskatu erabiltzaile berriei CAPTCHA bat ebazteko beren kontua berresteko
       content_retention:
         danger_zone: Eremu arriskutsua
-        preamble: Kontrolatu erabiltzaileek sortutako edukia nola biltegiratzen den Mastodonen.
+        preamble: Kontrolatu erabiltzaileek sortutako edukia nola biltegiratzen den Fedireden.
         title: Edukia atxikitzea
       default_noindex:
         desc_html: Ezarpen hau aldatu ez duten erabiltzaile guztiei eragingo die
         title: Erabiltzaileei bilaketa-motorraren indexaziotik at egoteko aukera ematen die lehenetsitako aukera modura
       discovery:
         follow_recommendations: Jarraitzeko gomendioak
-        preamble: Eduki interesgarria aurkitzea garrantzitsua da Mastodoneko erabiltzaile berrientzat, behar bada inor ez dutelako ezagutuko. Kontrolatu zure zerbitzariko aurkikuntza-ezaugarriek nola funtzionatzen duten.
+        preamble: Eduki interesgarria aurkitzea garrantzitsua da Fediredeko erabiltzaile berrientzat, behar bada inor ez dutelako ezagutuko. Kontrolatu zure zerbitzariko aurkikuntza-ezaugarriek nola funtzionatzen duten.
         profile_directory: Profil-direktorioa
         public_timelines: Denbora-lerro publikoak
         publish_discovered_servers: Argitaratu aurkitutako zerbitzariak
@@ -819,7 +819,7 @@ eu:
         message_html: Elasticsearch indexatze-mapeatzeak zaharkituta daude. Exekutatu <code>tootctl search deploy --only=%{value}</code>
       elasticsearch_preset:
         action: Ikusi dokumentazioa
-        message_html: Zure Elasticsearch-eko klusterrak nodo bat baino gehiago dauka, baina Mastodonek ezin ditu erabili ez dagoelako horretarako konfiguratuta.
+        message_html: Zure Elasticsearch-eko klusterrak nodo bat baino gehiago dauka, baina Fediredek ezin ditu erabili ez dagoelako horretarako konfiguratuta.
       elasticsearch_preset_single_node:
         action: Ikusi dokumentazioa
         message_html: 'Zure Elasticsearch-eko klusterrak nodo bakarra dauka, hortaz, <code>ES_PRESET</code> balore honetan ezarri beharko zenuke: <code>single_node_cluster</code>.'
@@ -922,7 +922,7 @@ eu:
     webhooks:
       add_new: Gehitu amaiera-puntua
       delete: Ezabatu
-      description_html: "<strong>Webhook</strong> batek aukera ematen dio Mastodoni zure aplikazioari aukeratutako gertaeren <strong>jakinarazpenak denbora errealean</strong> bidaltzeko, zure aplikazioak <strong>automatikoki erantzunak abiarazi ditzan</strong>."
+      description_html: "<strong>Webhook</strong> batek aukera ematen dio Fediredi zure aplikazioari aukeratutako gertaeren <strong>jakinarazpenak denbora errealean</strong> bidaltzeko, zure aplikazioak <strong>automatikoki erantzunak abiarazi ditzan</strong>."
       disable: Desgaitu
       disabled: Desgaituta
       edit: Editatu amaiera-puntua
@@ -1463,13 +1463,13 @@ eu:
     posting_defaults: Bidalketarako lehenetsitakoak
     public_timelines: Denbora-lerro publikoak
   privacy:
-    hint_html: "<strong>Pertsonalizatu nola nahi duzun zure profila eta argitalpenak aurkitzea.</strong> Mastodonen hainbat ezaugarri gaituta daudenean lagungarri izan dakizkizuke publiko zabalago batera iristeko. Hartu une bat ezarpen horiek berrikusteko, zure erabilerara egokitzen direla ziurtatzeko."
+    hint_html: "<strong>Pertsonalizatu nola nahi duzun zure profila eta argitalpenak aurkitzea.</strong> Fedireden hainbat ezaugarri gaituta daudenean lagungarri izan dakizkizuke publiko zabalago batera iristeko. Hartu une bat ezarpen horiek berrikusteko, zure erabilerara egokitzen direla ziurtatzeko."
     privacy: Pribatutasuna
     privacy_hint_html: Kontrolatu besteen onurarako zenbat partekatu nahi duzun. Jendeak profil interesgarriak eta aplikazio apartak aurki ditzazke zuk nor jarraitzen duzun eta argitaratzeko darabilzun aplikazioak ikustean, baina baliteke ezkutuan mantentzea nahiago izatea.
     reach: Irismena
     reach_hint_html: Kontrolatu jende berriak zu jarrai eta aurki zaitzakeen. Zure mezuak Arakatu pantailan agertzea nahi duzu? Beste pertsona batzuek nor jarraitzeko gomendioetan zu ikus zaitzaten nahi duzu? Automatikoki onartu nahi dituzu jarraitzaile berri guztiak, edo bakoitzaren gainean erabaki?
     search: Bilatu
-    search_hint_html: Kontrolatu nola aurki zaitzaketen. Nahi duzu jendeak publikoki argitaratu duzunagatik aurki zaitzala? Nahi duzu Mastodonetik kanpoko pertsonek weba arakatzean zure profila aurki dezatela? Kontuan izan bilaketa-motor guztien erabateko bazterketa ezin dela bermatu jendaurreko informaziorako.
+    search_hint_html: Kontrolatu nola aurki zaitzaketen. Nahi duzu jendeak publikoki argitaratu duzunagatik aurki zaitzala? Nahi duzu Fediredetik kanpoko pertsonek weba arakatzean zure profila aurki dezatela? Kontuan izan bilaketa-motor guztien erabateko bazterketa ezin dela bermatu jendaurreko informaziorako.
     title: Pribatutasuna eta irismena
   privacy_policy:
     title: Pribatutasun politika
@@ -1816,7 +1816,7 @@ eu:
   verification:
     extra_instructions_html: <strong>Aholkua:</strong> webguneko esteka ikusezina izan daiteke. Muina <code>rel="me"</code> da, erabiltzaileak sortutako edukia duten webguneetan beste inor zure burutzat aurkeztea eragozten duena. <code>a</code> beharrean <code>esteka</code> motako etiketa bat ere erabil dezakezu orriaren goiburuan, baina HTMLak erabilgarri egon behar du JavaScript exekutatu gabe.
     here_is_how: Argibidea
-    hint_html: "<strong>Mastodonen nortasun-egiaztapena guztiontzat da.</strong> Web estandar irekietan oinarritua, orain eta betiko doan. Behar duzun guztia jendeak ezagutzen duen webgune pertsonal bat da. Fedired profiletik webgune honetara estekatzen duzunean, webguneak Fedired profilera estekatzen duela egiaztatuko dugu eta adierazle bat erakutsiko du."
+    hint_html: "<strong>Fedireden nortasun-egiaztapena guztiontzat da.</strong> Web estandar irekietan oinarritua, orain eta betiko doan. Behar duzun guztia jendeak ezagutzen duen webgune pertsonal bat da. Fedired profiletik webgune honetara estekatzen duzunean, webguneak Fedired profilera estekatzen duela egiaztatuko dugu eta adierazle bat erakutsiko du."
     instructions_html: Kopiatu eta itsatsi ondoko kodea zure webguneko HTMLan. Ondoren, gehitu zure webgunearen helbidea zure profileko eremu gehigarrietako batean, "Editatu profila" fitxatik eta gorde aldaketak.
     verification: Egiaztaketa
     verified_links: Zure lotura egiaztatuak

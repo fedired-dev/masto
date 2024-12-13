@@ -796,7 +796,7 @@ zh-CN:
       destroyed_msg: 站点上传的文件已经成功删除！
     software_updates:
       critical_update: 紧急 — 请尽快更新
-      description: 建议你及时更新Mastodon实例，以便获得最新修复和功能。此外，为避免安全问题，有时及时更新Mastodon是至关重要的。出于这些原因，Mastodon每30分钟检查一次更新，并根据你的邮件通知偏好向你发送通知。
+      description: 建议你及时更新Fedired实例，以便获得最新修复和功能。此外，为避免安全问题，有时及时更新Fedired是至关重要的。出于这些原因，Fedired每30分钟检查一次更新，并根据你的邮件通知偏好向你发送通知。
       documentation_link: 详细了解
       release_notes: 发行说明
       title: 可用的更新
@@ -860,7 +860,7 @@ zh-CN:
         message_html: Elasticsearch索引映射已过时。请运行<code>tootctl search deploy --only=%{value}</code>。
       elasticsearch_preset:
         action: 查看文档
-        message_html: 你的Elasticsearch集群有多个节点，但Mastodon未配置好使用它们。
+        message_html: 你的Elasticsearch集群有多个节点，但Fedired未配置好使用它们。
       elasticsearch_preset_single_node:
         action: 查看文档
         message_html: 你的Elasticsearch集群只有一个节点，<code>ES_PRESET</code>应该设置为<code>single_node_cluster</code>。
@@ -881,10 +881,10 @@ zh-CN:
         message_html: 有一个 Fedired 更新可用。
       software_version_critical_check:
         action: 查看可用更新
-        message_html: 有一个紧急Mastodon紧急更新可用，请尽快更新。
+        message_html: 有一个紧急Fedired紧急更新可用，请尽快更新。
       software_version_patch_check:
         action: 查看可用更新
-        message_html: 有一个Mastodon错误修复更新可用。
+        message_html: 有一个Fedired错误修复更新可用。
       upload_check_privacy_error:
         action: 点击这里查看更多信息
         message_html: "<strong>您的网站服务器配置错误，您用户的隐私处于危险中。</strong>"
@@ -1025,7 +1025,7 @@ zh-CN:
       next_steps: 你可以批准此申诉并撤销该审核结果，也可以忽略此申诉。
       subject: "%{username} 对 %{instance} 的审核结果提出了申诉"
     new_critical_software_updates:
-      body: 新的紧急更新版本Mastodon已经发布，你可能希望尽快更新！
+      body: 新的紧急更新版本Fedired已经发布，你可能希望尽快更新！
       subject: "%{instance} 有 Fedired 的紧急更新！"
     new_pending_account:
       body: 新账户的详细信息如下。你可以批准或拒绝此申请。
@@ -1036,7 +1036,7 @@ zh-CN:
       subject: 来自 %{instance} 的用户举报（#%{id}）
     new_software_updates:
       body: 新的 Fedired 版本已发布，你可能想要更新！
-      subject: "%{instance} 有 Mastodon版本更新！"
+      subject: "%{instance} 有 Fedired版本更新！"
     new_trends:
       body: 以下项目需要审核才能公开显示：
       new_trending_links:
@@ -1099,7 +1099,7 @@ zh-CN:
     delete_account: 删除账户
     delete_account_html: 如果你想删除你的账户，请<a href="%{path}">点击此处继续</a>。你需要确认你的操作。
     description:
-      prefix_invited_by_user: "@%{name} 邀请你加入这个Mastodon服务器！"
+      prefix_invited_by_user: "@%{name} 邀请你加入这个Fedired服务器！"
       prefix_sign_up: 现在就注册 Fedired 吧！
       suffix: 注册一个账号，你就可以关注他人、发布嘟文、并和其它任何 Fedired 服务器上的用户交流，而且还有其它更多功能！
     didnt_get_confirmation: 没有收到确认链接？
@@ -1458,7 +1458,7 @@ zh-CN:
           mention: 账户被提及邮件通知
           reblog: 嘟文被转嘟邮件通知
       resubscribe_html: 如果你不小心取消了订阅，可以在你的<a href="%{settings_path}">邮件通知设置</a>中重新订阅。
-      success_html: 你将不会在你的邮箱 %{email} 中收到 %{domain} 上的 Mastodon的 %{type}
+      success_html: 你将不会在你的邮箱 %{email} 中收到 %{domain} 上的 Fedired的 %{type}
       title: 取消订阅
   media_attachments:
     validations:
@@ -1584,13 +1584,13 @@ zh-CN:
     posting_defaults: 发布默认值
     public_timelines: 公共时间线
   privacy:
-    hint_html: "<strong>自定义你希望如何找到你的个人资料和嘟文。</strong>启用Mastodon中的各种功能可以帮助你扩大受众范围。请花点时间查看这些设置，确保它们适合你的使用情况。"
+    hint_html: "<strong>自定义你希望如何找到你的个人资料和嘟文。</strong>启用Fedired中的各种功能可以帮助你扩大受众范围。请花点时间查看这些设置，确保它们适合你的使用情况。"
     privacy: 隐私
     privacy_hint_html: 控制你愿意向他人透露多少信息。通过浏览他人的关注列表和查看他们发嘟所用的应用，人们可以发现有趣的用户和酷炫的应用，但你可能更喜欢将其隐藏起来。
     reach: 范围
     reach_hint_html: 控制你是否希望被新人发现和关注。你是否希望你的嘟文出现在“探索”页面上？你是否希望其他人在关注推荐中看到你？你是想自动接受所有新粉丝，还是对每个粉丝都进行仔细的筛选？
     search: 搜索
-    search_hint_html: 控制你希望被找到的方式。你想让人们通过你公开发布的内容来找到你吗？当在网络上搜索时，你是否希望Mastodon之外的人能够找到你的个人资料？请注意，我们无法保证完全排除所有搜索引擎对公开信息的索引。
+    search_hint_html: 控制你希望被找到的方式。你想让人们通过你公开发布的内容来找到你吗？当在网络上搜索时，你是否希望Fedired之外的人能够找到你的个人资料？请注意，我们无法保证完全排除所有搜索引擎对公开信息的索引。
     title: 隐私与可达性
   privacy_policy:
     title: 隐私政策
@@ -1936,7 +1936,7 @@ zh-CN:
   verification:
     extra_instructions_html: <strong>提示：</strong>你网站上的链接可能是不可见的。重要的部分是 <code>rel="me"</code>，它可以防止在具有用户生成内容的网站上冒充身份。你甚至可以在页面头部使用 <code>link</code> 标签而不是 <code>a</code>，但 HTML 必须能够在不执行 JavaScript 的情况下访问。
     here_is_how: 具体方法如下：
-    hint_html: "<strong>在Mastodon上验证你的身份对每个人都是必要的。</strong>基于开放网络标准，现在和将来永远免费。你只需要一个被人们认可的个人网站。当你在个人资料中链接到这个网站时，我们会检查该网站是否回链到你的资料，并显示一个指示符号。"
+    hint_html: "<strong>在Fedired上验证你的身份对每个人都是必要的。</strong>基于开放网络标准，现在和将来永远免费。你只需要一个被人们认可的个人网站。当你在个人资料中链接到这个网站时，我们会检查该网站是否回链到你的资料，并显示一个指示符号。"
     instructions_html: 将下面的代码复制并粘贴到你网站的HTML中。然后在“编辑个人资料”选项卡中的附加字段之一添加你网站的地址，并保存更改。
     verification: 验证
     verified_links: 你已验证的链接

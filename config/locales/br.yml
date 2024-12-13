@@ -500,7 +500,7 @@ br:
   settings:
     account: Kont
     account_settings: Arventennoù ar gont
-    back: Distreiñ da vMastodon
+    back: Distreiñ da vFedired
     development: Diorren
     edit_profile: Kemmañ ar profil
     featured_tags: Hashtagoù pennañ

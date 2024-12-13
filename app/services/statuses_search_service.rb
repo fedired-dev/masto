@@ -2,7 +2,7 @@
 
 class StatusesSearchService < BaseService
   def call(query, account = nil, options = {})
-    MastodonOTELTracer.in_span('StatusesSearchService#call') do |span|
+    FediredOTELTracer.in_span('StatusesSearchService#call') do |span|
       @query   = query&.strip
       @account = account
       @options = options

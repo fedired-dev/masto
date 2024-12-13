@@ -63,6 +63,6 @@ Sí, **Fedired** es completamente gratuito y siempre lo será.
 - **Haz una donación en [Patreon](https://patreon.com/fedired)**
 
 ## Importante:
-Fedired es una bifurcación del proyecto Mastodon.
+Fedired es una bifurcación del proyecto Fedired.
 
 <img src="https://app.greenweb.org/api/v3/greencheckimage/fedired.com?nocache=true" alt="This website runs on green hosting - verified by thegreenwebfoundation.org" width="200px" height="95px">

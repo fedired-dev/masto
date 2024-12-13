@@ -24,7 +24,7 @@ sr-Latn:
         explanation: Napravili ste nalog na %{host} sa adresom ove e-pošte. Na jedan klik ste udaljeni od aktiviranja. Ako ovo niste vi, molimo ignorišite ovu e-poštu.
         explanation_when_pending: Prijavili ste se za poziv %{host} sa ovim imejlom. Kada potvrdite svoj imejl, pregledaćemo vašu prijavu. Možete se prijaviti da biste promenili detalje ili izbrisali nalog, ali ne možete pristupiti većini funkcija dok vam nalog ne bude odobren. Ako vaša prijava bude odbijena, vaši podaci će biti uklonjeni, tako da od vas neće biti potrebne dalje radnje. Ako ovo niste bili vi, zanemarite ovaj imejl.
         extra_html: Molimo da takođe proverite <a href="%{terms_path}"> pravila ove instance i <a href="%{policy_path}"> naše uslove korišćenja.
-        subject: 'Mastodont: Uputstvo za potvrdu korisničkog naloga na instanci %{instance}'
+        subject: 'Fediredt: Uputstvo za potvrdu korisničkog naloga na instanci %{instance}'
         title: Verifikujte adresu e-pošte
       email_changed:
         explanation: 'Adresa ove e-pošte za vaš nalog će biti promenjena u:'
@@ -34,7 +34,7 @@ sr-Latn:
       password_change:
         explanation: Lozinka vašeg naloga je promenjena.
         extra: Ako niste promenili vašu e-poštu, sasvim je moguće da je neko drugi dobio pristup vašem nalogu. Molimo promenite lozinku odmah ili kontaktirajte administratora instance ako ste zaključani izvan vašeg naloga.
-        subject: 'Mastodont: Lozinka promenjena'
+        subject: 'Fediredt: Lozinka promenjena'
         title: Lozinka promenjena
       reconfirmation_instructions:
         explanation: Potvrdite novu adresu da biste promenili e-poštu.
@@ -45,7 +45,7 @@ sr-Latn:
         action: Lozinka promenjena
         explanation: Zatražili ste novu lozinku za vaš nalog.
         extra: Ako niste zatražili ovo, molimo ignorišite ovu e-poštu. Vaša lozinka neće biti promenjena dok ne pristupite poveznici/vezi iznad i ne napravite novu.
-        subject: 'Mastodont: Uputstvo za resetovanje lozinke'
+        subject: 'Fediredt: Uputstvo za resetovanje lozinke'
         title: Lozinka resetovana
       two_factor_disabled:
         explanation: Prijavljivanje je sada moguće koristeći samo adresu e-pošte i lozinku.
@@ -63,7 +63,7 @@ sr-Latn:
         subtitle: Prethodni kodovi za oporavak su poništeni i generisani su novi.
         title: 2FA kodovi oporavka promenjeni
       unlock_instructions:
-        subject: 'Mastodont: Uputstvo za otključavanje korisničkog naloga'
+        subject: 'Fediredt: Uputstvo za otključavanje korisničkog naloga'
       webauthn_credential:
         added:
           explanation: Sledeći bezbednosni ključ je dodat na vaš nalog

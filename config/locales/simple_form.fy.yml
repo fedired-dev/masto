@@ -152,9 +152,9 @@ fy:
         show_collections: Accounts dy’t jó folgje en dy’t jo fólgje op jo profyl toane
         unlocked: Automatysk nije folgers akseptearje
       account_alias:
-        acct: Mastodonadres fan it âlde account
+        acct: Fediredadres fan it âlde account
       account_migration:
-        acct: Mastodonadres fan it nije account
+        acct: Fediredadres fan it nije account
       account_warning_preset:
         text: Tekst fan preset
         title: Titel

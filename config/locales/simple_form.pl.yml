@@ -4,10 +4,10 @@ pl:
     hints:
       account:
         attribution_domains_as_text: Jedna na linię. Chroni przed fałszywym przypisaniem wpisów.
-        discoverable: Twój profil i publiczne wpisy mogą być promowane lub polecane na Mastodonie i twój profil może być sugerowany innym użytkownikom.
+        discoverable: Twój profil i publiczne wpisy mogą być promowane lub polecane na Fediredie i twój profil może być sugerowany innym użytkownikom.
         display_name: Twoje imię lub pseudonim.
         fields: Co ci się tylko podoba – twoja strona domowa, zaimki, wiek…
-        indexable: Twoje publiczne wpisy mogą pojawiać się w wynikach wyszukiwania w Mastodonie. Użytkownicy, którzy wchodzili w interakcje z twoimi wpisami będą mogli je znaleźć niezależnie od tego ustawienia.
+        indexable: Twoje publiczne wpisy mogą pojawiać się w wynikach wyszukiwania w Fediredie. Użytkownicy, którzy wchodzili w interakcje z twoimi wpisami będą mogli je znaleźć niezależnie od tego ustawienia.
         note: 'Możesz @wspomnieć użytkowników albo #hasztagi.'
         show_collections: Twoja lista obserwowanych i obserwujących będzie widoczna dla wszystkich. Użytkownicy których obserwujesz będą jednak o tym wiedzieli.
         unlocked: Inni użytkownicy będą mogli cię obserwować bez proszenia o zgodę. Odznacz, jeżeli chcesz aprobować obserwujących ręcznie po przejrzeniu próśb o obserwowanie.
@@ -85,7 +85,7 @@ pl:
         closed_registrations_message: Wyświetlane po zamknięciu rejestracji
         content_cache_retention_period: Wszystkie wpisy z innych serwerów (w tym podbicia i odpowiedzi) zostaną usunięte po danej liczbie dni, bez względu na interakcje z nimi twoich użytkowników. Zawierają się w tym wpisy, które twoi użytkownicy dodali do zakładek lub ulubionych. Prywatne wzmianki od innych instancji zostaną utracone i będą nieprzywracalne. To ustawienie jest przeznaczone dla instancji zastosowania specjalnego i jest niezgodne z wieloma oczekiwaniami użytkowników.
         custom_css: Możesz zastosować niestandardowe style w internetowej wersji Fedired.
-        favicon: WEBP, PNG, GIF, albo JPEG. Nadpisuje domyślną faviconę Mastodona.
+        favicon: WEBP, PNG, GIF, albo JPEG. Nadpisuje domyślną faviconę Fedireda.
         mascot: Nadpisuje ilustrację w zaawansowanym interfejsie internetowym.
         media_cache_retention_period: Media z wpisów od obcych użytkowników są cache'owane na twoim serwerze. Kiedy dana wartość jest dodatnia, media te będą usunięte po tylu dniach. Jeżeli usunięte media zostaną potem zażądane, oryginał zostanie ponownie pobrany (o ile jest dalej dostępny). Z powodu ograniczeń dot. częstotliwości z jaką karty podglądu linków dopytują się o dane od stron trzecich, zalecana wartość to min. 14 dni, bo karty podglądu linków nie będą wcześniej odświeżane na żądane.
         peers_api_enabled: Lista nazw domen, z którymi ten serwer spotkał się w fediverse. Nie są tu zawarte żadne dane o tym, czy użytkownik dokonuje federacji z danym serwerem, a jedynie, że jego serwer o tym wie. Jest to wykorzystywane przez serwisy, które zbierają statystyki dotyczące federacji w ogólnym sensie.
@@ -107,7 +107,7 @@ pl:
       form_challenge:
         current_password: Wchodzisz w strefę bezpieczną
       imports:
-        data: Plik CSV wyeksportowany z innego serwera Mastodona
+        data: Plik CSV wyeksportowany z innego serwera Fedireda
       invite_request:
         text: To pomoże nam w recenzji Twojej aplikacji
       ip_block:
@@ -304,7 +304,7 @@ pl:
         software_updates:
           all: Powiadamiaj o wszystkich aktualizacjach
           critical: Powiadamiaj tylko o aktualizacjach krytycznych
-          label: Dostępna nowa wersja Mastodona
+          label: Dostępna nowa wersja Fedireda
           none: Nigdy nie powiadamiaj o aktualizacjach (niezalecane)
           patch: Powiadamiaj o aktualizacjach naprawiających błędy
         trending_tag: Nowe popularne wymagają przeglądu

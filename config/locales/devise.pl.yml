@@ -38,7 +38,7 @@ pl:
         title: Zmieniono hasło
       reconfirmation_instructions:
         explanation: Potwierdź nowy adres aby zmienić e-mail.
-        extra: Jeżeli nie próbowałeś(-aś) zmienić e-maila, zignoruj tą wiadomość. Adres e-mail przypisany do konta Mastodona nie ulegnie zmianie, jeżeli nie użyjesz powyższego odnośniku.
+        extra: Jeżeli nie próbowałeś(-aś) zmienić e-maila, zignoruj tą wiadomość. Adres e-mail przypisany do konta Fedireda nie ulegnie zmianie, jeżeli nie użyjesz powyższego odnośniku.
         subject: 'Fedired: Potwierdź adres e-mail na %{instance}'
         title: Zweryfikuj adres e-mail
       reset_password_instructions:

@@ -903,7 +903,7 @@ ku:
     delete_account_html: Ku tu dixwazî ajimêra xwe jê bibe, tu dikarî <a href="%{path}">li vir bidomîne</a>. Ji te tê xwestin ku were pejirandin.
     description:
       prefix_invited_by_user: "@%{name} te vedixwîne ku tu beşdarî vê rajekara Fedired-ê bibî!"
-      prefix_sign_up: Îro li Mastodonê tomar bibe!
+      prefix_sign_up: Îro li Fediredê tomar bibe!
       suffix: Bi ajimêrekê, tu yê karibî kesan bişopînî, rojanekirinan bişînî û bi bikarhênerên ji her rajekarê Fedired re peyaman bişînî û bêtir!
     dont_have_your_security_key: Kilîda te ya ewlehiyê tune ye?
     forgot_password: Te borînpeyva xwe ji bîr kir?

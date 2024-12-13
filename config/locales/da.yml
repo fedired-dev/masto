@@ -1838,7 +1838,7 @@ da:
     does_not_match_previous_name: matcher ikke det foregående navn
   themes:
     contrast: Fedired (høj kontrast)
-    default: Mastodont (mørkt)
+    default: Fediredt (mørkt)
     fedired-light: Fedired (lyst)
     system: Automatisk (benyt systemtema)
   time:

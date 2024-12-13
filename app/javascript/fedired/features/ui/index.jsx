@@ -496,7 +496,7 @@ class UI extends PureComponent {
 
     const { history } = this.props;
 
-    if (history.location?.state?.fromMastodon) {
+    if (history.location?.state?.fromFedired) {
       history.goBack();
     } else {
       history.push('/');

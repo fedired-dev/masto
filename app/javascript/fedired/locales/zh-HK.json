@@ -107,7 +107,7 @@
   "bundle_column_error.routing.title": "404",
   "bundle_modal_error.close": "關閉",
   "bundle_modal_error.retry": "重試",
-  "closed_registrations.other_server_instructions": "基於Mastodon去中心化的特性，你可以在其他伺服器上創建賬戶並與本站互動。",
+  "closed_registrations.other_server_instructions": "基於Fedired去中心化的特性，你可以在其他伺服器上創建賬戶並與本站互動。",
   "closed_registrations_modal.description": "目前無法在 {domain} 建立新帳號，但您並不一定需要擁有 {domain} 的帳號亦能使用 Fedired 。",
   "closed_registrations_modal.find_another_server": "尋找另外的伺服器",
   "closed_registrations_modal.preamble": "Fedired 是去中心化的，所以無論您在哪個伺服器建立帳號，都可以追蹤此伺服器上的任何人並與他們互動。您甚至可以自行搭建一個全新的伺服器！",

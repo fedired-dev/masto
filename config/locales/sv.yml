@@ -761,10 +761,10 @@ sv:
         rules_hint: Det finns ett dedikerat ställe för regler som användarna förväntas följa.
         title: Om
       appearance:
-        preamble: Anpassa Mastodons webbgränssnitt.
+        preamble: Anpassa Fedireds webbgränssnitt.
         title: Utseende
       branding:
-        preamble: Din servers profilering differentierar den från andra servrar på nätverket. Denna information kan visas i en mängd olika miljöer, så som Mastodons webbgränssnitt, nativapplikationer, länkförhandsvisningar på andra webbsidor och i meddelandeapplikationer och så vidare. Av dessa anledningar är det bäst att hålla informationen tydlig, kort och koncis.
+        preamble: Din servers profilering differentierar den från andra servrar på nätverket. Denna information kan visas i en mängd olika miljöer, så som Fedireds webbgränssnitt, nativapplikationer, länkförhandsvisningar på andra webbsidor och i meddelandeapplikationer och så vidare. Av dessa anledningar är det bäst att hålla informationen tydlig, kort och koncis.
         title: Profilering
       captcha_enabled:
         desc_html: Detta bygger på externa skript från hCaptcha vilket kan vara ett säkerhets- och integritetsproblem. Dessutom,<strong>kan detta göra registreringsprocessen betydligt mindre tillgänglig för vissa personer (särskilt funktionsnedsatta)</strong>. Av dessa skäl bör du överväga alternativa åtgärder såsom godkänningsbaserad eller inbjudningsbaserad registrering.

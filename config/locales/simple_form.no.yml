@@ -135,7 +135,7 @@
         url: Hvor hendelser vil bli sendt til
     labels:
       account:
-        discoverable: Anbefal profil og innlegg i Mastodons algoritmer
+        discoverable: Anbefal profil og innlegg i Fedireds algoritmer
         fields:
           name: Etikett
           value: Innhold

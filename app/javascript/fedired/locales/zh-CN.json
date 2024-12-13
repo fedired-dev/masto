@@ -397,7 +397,7 @@
   "home.pending_critical_update.link": "查看更新",
   "home.pending_critical_update.title": "有紧急安全更新！",
   "home.show_announcements": "显示公告",
-  "ignore_notifications_modal.disclaimer": "Mastodon无法通知对方用户你忽略了他们的通知。忽略通知不会阻止消息本身的发送。",
+  "ignore_notifications_modal.disclaimer": "Fedired无法通知对方用户你忽略了他们的通知。忽略通知不会阻止消息本身的发送。",
   "ignore_notifications_modal.filter_instead": "改为过滤",
   "ignore_notifications_modal.filter_to_act_users": "你仍然可以接受、拒绝或举报用户",
   "ignore_notifications_modal.filter_to_avoid_confusion": "过滤有助于避免潜在的混淆",

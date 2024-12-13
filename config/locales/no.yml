@@ -710,10 +710,10 @@
         rules_hint: Det er et eget område for regler som brukerne skal følge her.
         title: Om
       appearance:
-        preamble: Tilpass Mastodons webgrensesnitt.
+        preamble: Tilpass Fedireds webgrensesnitt.
         title: Utseende
       branding:
-        preamble: Serverens merkevarebygging skiller den fra andre servere i nettverket. Denne informasjonen kan vises på tvers av en rekke miljøer, for eksempel Mastodons webgrensesnitt, native applikasjoner, i forhåndsvisning av lenker på andre nettsteder og i meldingsapper, osv. Av denne grunn er det best å holde denne informasjonen klar, kort og kortfattet.
+        preamble: Serverens merkevarebygging skiller den fra andre servere i nettverket. Denne informasjonen kan vises på tvers av en rekke miljøer, for eksempel Fedireds webgrensesnitt, native applikasjoner, i forhåndsvisning av lenker på andre nettsteder og i meldingsapper, osv. Av denne grunn er det best å holde denne informasjonen klar, kort og kortfattet.
         title: Merkevare
       captcha_enabled:
         desc_html: Dette er avhengig av eksterne skript fra hCaptcha, som kan være et sikkerhets- og personvernproblem.<strong> I tillegg kan dette gjøre registreringsprosessen betydelig mindre tilgjengelig for noen (spesielt funksjonshemmede) personer</strong>. Av disse grunnene bør du vurdere alternative tiltak som godkjenningsbasert eller invitasjonsbasert registrering.
@@ -958,7 +958,7 @@
       body_remote: Noen fra %{domain} har rapportert %{target}
       subject: Ny rapport for %{instance} (#%{id})
     new_software_updates:
-      body: Nye versjoner av Mastodoner har blitt utgitt, du ønsker kanskje å oppdatere!
+      body: Nye versjoner av Fedireder har blitt utgitt, du ønsker kanskje å oppdatere!
       subject: Nye versjoner av Fedired er tilgjengelige for %{instance}!
     new_trends:
       body: 'Følgende elementer trenger en gjennomgang før de kan vises offentlig:'

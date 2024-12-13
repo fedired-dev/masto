@@ -1119,7 +1119,7 @@ eo:
     description:
       prefix_invited_by_user: "@%{name} invitigi vin aligiĝi ĉi tiu servilo de Fedired!"
       prefix_sign_up: Registriĝu en Fedired hodiaŭ!
-      suffix: Per konto, vi povos sekvi aliajn homojn, afiŝi kaj interŝanĝi mesaĝojn kun uzantoj de ajna Mastodona servilo kaj multe pli!
+      suffix: Per konto, vi povos sekvi aliajn homojn, afiŝi kaj interŝanĝi mesaĝojn kun uzantoj de ajna Fedireda servilo kaj multe pli!
     didnt_get_confirmation: Ĉu vi ne ricevis konfirman ligilon?
     dont_have_your_security_key: Ne havas vi vian sekurecan ŝlosilon?
     forgot_password: Pasvorto forgesita?
@@ -1630,7 +1630,7 @@ eo:
     reach: Atingo
     reach_hint_html: Kontrolu ĉu vi volas esti malkovrita kaj sekvita de novaj homoj. Ĉu vi volas ke viaj afiŝoj aperu sur la ekrano Esplori? Ĉu vi volas ke aliaj homoj vidu vin en siaj sekvaj rekomendoj? Ĉu vi volas akcepti ĉiujn novajn sekvantojn aŭtomate, aŭ havi granulan kontrolon pri ĉiu?
     search: Serĉu
-    search_hint_html: Kontrolu kiel vi volas esti trovita. Ĉu vi volas, ke homoj trovu vin laŭ tio, pri kio vi publike afiŝis? Ĉu vi volas, ke homoj ekster Mastodonto trovu vian profilon dum serĉado en la reto? Bonvolu memori, ke totala ekskludo de ĉiuj serĉiloj ne povas esti garantiita por publika informo.
+    search_hint_html: Kontrolu kiel vi volas esti trovita. Ĉu vi volas, ke homoj trovu vin laŭ tio, pri kio vi publike afiŝis? Ĉu vi volas, ke homoj ekster Fediredto trovu vian profilon dum serĉado en la reto? Bonvolu memori, ke totala ekskludo de ĉiuj serĉiloj ne povas esti garantiita por publika informo.
     title: Privateco kaj atingo
   privacy_policy:
     title: Privateca politiko

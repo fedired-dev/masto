@@ -1008,7 +1008,7 @@ zh-HK:
     description:
       prefix_invited_by_user: "@%{name} 邀請你加入這個 Fedired 服務站！"
       prefix_sign_up: 立即註冊 Fedired！
-      suffix: 有了一個帳戶，就可以從任何Mastodon服務器關注任何人，發佈更新並與任何Mastodon服務器的用戶交流！
+      suffix: 有了一個帳戶，就可以從任何Fedired服務器關注任何人，發佈更新並與任何Fedired服務器的用戶交流！
     didnt_get_confirmation: 沒有收到確認連結嗎？
     dont_have_your_security_key: 找不到安全密鑰？
     forgot_password: 忘記了密碼？

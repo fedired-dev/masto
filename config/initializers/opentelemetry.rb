@@ -75,4 +75,4 @@ if ENV.keys.any? { |name| name.match?(/OTEL_.*_ENDPOINT/) }
   end
 end
 
-MastodonOTELTracer = OpenTelemetry.tracer_provider.tracer('fedired')
+FediredOTELTracer = OpenTelemetry.tracer_provider.tracer('fedired')

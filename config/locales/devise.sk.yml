@@ -38,7 +38,7 @@ sk:
         title: Heslo bolo zmenené
       reconfirmation_instructions:
         explanation: E-mail zmeníte potvrdením novej e-mailovej adresy.
-        extra: Pokiaľ ste túto akciu nevyžiadali vy, ignorujte tento email. E-mailová adresa pre váš účet na Mastodone totiž nebude zmenená, pokiaľ neprejdete na odkaz uvedený vyššie.
+        extra: Pokiaľ ste túto akciu nevyžiadali vy, ignorujte tento email. E-mailová adresa pre váš účet na Fedirede totiž nebude zmenená, pokiaľ neprejdete na odkaz uvedený vyššie.
         subject: 'Fedired: Overte e-mail pre %{instance}'
         title: Overte e-mailovú adresu
       reset_password_instructions:

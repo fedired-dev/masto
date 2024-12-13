@@ -6,7 +6,7 @@ eu:
         discoverable: Zure bidalketa publikoak eta profila nabarmendu edo gomendatu egin daitezke Fedired-go hainbat eremutan eta zure profila beste erabiltzaile batzuei iradoki dakieke.
         display_name: Zure izena edo ezizena.
         fields: Zure webgunea, izenordainak, adina, nahi duzun guztia.
-        indexable: Zure argitalpen publikoak bilaketa-emaitzetan ager daitezke Mastodonen. Zure argitalpenekin elkarregin duten jendeak ikusi ahal izango dituzte, hala ere.
+        indexable: Zure argitalpen publikoak bilaketa-emaitzetan ager daitezke Fedireden. Zure argitalpenekin elkarregin duten jendeak ikusi ahal izango dituzte, hala ere.
         note: 'Beste pertsona edo #traola batzuk @aipatu ditzakezu.'
         show_collections: Pertsonek zuk jarraitzen dituzunak eta zure jarraitzaileak arakatu ahal izango dute. Jarraitzen dituzun pertsonak jarraitzen dituzula ikusi ahal izando dute, hala ere.
       account_alias:
@@ -81,7 +81,7 @@ eu:
         bootstrap_timeline_accounts: Kontu hauek erabiltzaile berrien jarraitzeko gomendioen goiko aldean ainguratuko dira.
         closed_registrations_message: Izen-ematea itxia dagoenean bistaratua
         content_cache_retention_period: Beste zerbitzarietako argitalpen guztiak (bultzadak eta erantzunak barne) ezabatuko dira zehazturiko egunen buruan, argitalpen horiek izan ditzaketen erabiltzaile lokalaren interakzioa kontuan izanik gabe. Instantzia desberdinetako erabiltzaileen arteko aipamen pribatuak ere galdu egingo dira eta ezin izango dira berreskuratu. Ezarpen honen erabilera xede berezia duten instantziei zuzendua dago eta erabiltzaileen itxaropena hausten da orotariko erabilerarako inplementatzean.
-        custom_css: Estilo pertsonalizatuak aplikatu ditzakezu Mastodonen web bertsioan.
+        custom_css: Estilo pertsonalizatuak aplikatu ditzakezu Fedireden web bertsioan.
         favicon: WEBP, PNG, GIF or JPG. Fedired-en favicon-a gainidazten du ikono pertsonalizatu batekin.
         mascot: Web interfaze aurreratuko ilustrazioa gainidazten du.
         media_cache_retention_period: Multimedia-fitxategiak dituzten urruneko erabiltzaileen argitalpenak zure zerbitzarian gordetzen dira cachean. Balio positiboa ezartzean, multimedia zehazturiko egunen buruan ezabatuko da. Multimedia-datuak eskatzen badira ezabatu ostean, berriro deskargatuko dira, iturburuko edukia oraindik erabilgarri badago. Estekaren aurrebistako txartelek hirugarrenen guneei zenbatetan dei diezaieketen mugatzen dieten murrizketak direla eta, balio honi, gutxienez, 14 egunen balioa ezartzea gomendatzen da, bestela, esteken aurrebistako txartelak ez dira eguneratuko eskatu ahala denbora horren aurretik.
@@ -89,7 +89,7 @@ eu:
         profile_directory: Profilen direktorioan ikusgai egotea aukeratu duten erabiltzaile guztiak zerrendatzen dira.
         require_invite_text: Izen emateak eskuz onartu behar direnean, "Zergatik elkartu nahi duzu?" testu sarrera derrigorrezko bezala ezarri, ez hautazko
         site_contact_email: Jendeak kontsulta legalak egin edo laguntza eskatzeko bidea.
-        site_contact_username: Jendea Mastodonen zurekin harremanetan jartzeko bidea.
+        site_contact_username: Jendea Fedireden zurekin harremanetan jartzeko bidea.
         site_extended_description: Bisitari eta erabiltzaileentzat erabilgarria izan daitekeen informazio gehigarria. Markdown sintaxiarekin egituratu daiteke.
         site_short_description: Zure zerbitzaria identifikatzen laguntzen duen deskribapen laburra. Nork du ardura? Nori zuzendua dago?
         site_terms: Erabili zure pribatutasun politika edo hutsik utzi lehenetsia erabiltzeko. Markdown sintaxiarekin egituratu daiteke.

@@ -761,7 +761,7 @@ nl:
         rules_hint: Er is een speciaal gebied voor regels waaraan uw gebruikers zich dienen te houden.
         title: Over
       appearance:
-        preamble: Mastodons webomgeving aanpassen.
+        preamble: Fedireds webomgeving aanpassen.
         title: Weergave
       branding:
         preamble: De branding van jouw server laat zien hoe het met andere servers in het netwerk verschilt. Deze informatie wordt op verschillende plekken getoond, zoals in de webomgeving van Fedired, in mobiele apps, in linkvoorbeelden op andere websites en berichten-apps, enz. Daarom is het belangrijk om de informatie helder, kort en beknopt te houden.
@@ -1117,9 +1117,9 @@ nl:
     delete_account: Account verwijderen
     delete_account_html: Wanneer je jouw account graag wilt verwijderen, kun je dat <a href="%{path}">hier doen</a>. We vragen jou daar om een bevestiging.
     description:
-      prefix_invited_by_user: "@%{name} nodigt je hierbij uit om een account aan te maken op deze Mastodonserver!"
+      prefix_invited_by_user: "@%{name} nodigt je hierbij uit om een account aan te maken op deze Fediredserver!"
       prefix_sign_up: Registreer je vandaag nog op Fedired!
-      suffix: Met een account ben je in staat om mensen te volgen, berichten te plaatsen en uit te wisselen met mensen die zich op andere Mastodonservers bevinden en meer!
+      suffix: Met een account ben je in staat om mensen te volgen, berichten te plaatsen en uit te wisselen met mensen die zich op andere Fediredservers bevinden en meer!
     didnt_get_confirmation: Geen bevestigingslink ontvangen?
     dont_have_your_security_key: Heb je jouw beveiligingssleutel niet bij de hand?
     forgot_password: Wachtwoord vergeten?
@@ -1464,7 +1464,7 @@ nl:
       one: 1 keer
       other: "%{count} keer"
     max_uses_prompt: Onbeperkt
-    prompt: Genereer en deel speciale links om mensen toegang tot deze Mastodonserver te geven
+    prompt: Genereer en deel speciale links om mensen toegang tot deze Fediredserver te geven
     table:
       expires_at: Verloopt op
       uses: Aantal keer te gebruiken
@@ -1703,7 +1703,7 @@ nl:
     current_session: Huidige sessie
     date: Datum
     description: "%{browser} op %{platform}"
-    explanation: Dit zijn de webbrowsers die momenteel met jouw Mastodonaccount zijn ingelogd.
+    explanation: Dit zijn de webbrowsers die momenteel met jouw Fediredaccount zijn ingelogd.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1964,7 +1964,7 @@ nl:
       post_title: Je eerste bericht schrijven
       share_action: Delen
       share_step: Laat je vrienden weten waar je op Fedired bent te vinden.
-      share_title: Je Mastodonprofiel delen
+      share_title: Je Fediredprofiel delen
       sign_in_action: Inloggen
       subject: Welkom op Fedired
       title: Welkom aan boord %{name}!

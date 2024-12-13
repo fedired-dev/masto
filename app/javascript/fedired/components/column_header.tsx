@@ -38,7 +38,7 @@ const BackButton: React.FC<{
   const intl = useIntl();
 
   const handleBackClick = useCallback(() => {
-    if (history.location.state?.fromMastodon) {
+    if (history.location.state?.fromFedired) {
       history.goBack();
     } else {
       history.push('/');
@@ -211,7 +211,7 @@ export const ColumnHeader: React.FC<Props> = ({
 
   if (
     !pinned &&
-    ((multiColumn && history.location.state?.fromMastodon) || showBackButton)
+    ((multiColumn && history.location.state?.fromFedired) || showBackButton)
   ) {
     backButton = <BackButton onlyIcon={!!title} />;
   }

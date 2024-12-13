@@ -16,7 +16,7 @@ function useHandleClick(onClick?: OnClickCallback) {
   return useCallback(() => {
     if (onClick) {
       onClick();
-    } else if (history.location.state?.fromMastodon) {
+    } else if (history.location.state?.fromFedired) {
       history.goBack();
     } else {
       history.push('/');
