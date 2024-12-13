@@ -1,6 +1,5 @@
-/*  Fedired UI for Mastodon 
+/*  Fedired UI
 
-    A Fedired redesign for Mastodon's Web UI.
     https://github.com/fedired-dev/FediredUI/
 
     by @srnovus@fedired.com
@@ -450,7 +449,7 @@
 body.app-body  {
     background-color: var(--color-bg);
     color: var(--color-fg);
-    font-family: ui-rounded, "mastodon-font-sans-serif", sans-serif;
+    font-family: ui-rounded, "fedired-font-sans-serif", sans-serif;
 }
 
 .layout-single-column .ui::before {
@@ -3806,7 +3805,7 @@ div[tabindex="-1"] + div[tabindex="-1"] > .status__wrapper > .status-reply.statu
             border-radius: 15px 15px 0 0;
         }
         @media (prefers-color-scheme: light) {
-            .app-body:is(.theme-system, .theme-mastodon-light) .ui::after {
+            .app-body:is(.theme-system, .theme-fedired-light) .ui::after {
                 box-shadow: 0 -10px 0 10px #f3f5f7;
                 border-radius: 15px 15px 0 0;
             }
@@ -7072,7 +7071,7 @@ a:is(.active,
 .app-body .about__footer {
     order: 7;
 }
-.app-body #mastodon > div > div > div.columns-area__panels > div.columns-area__panels__main > div.columns-area.columns-area--mobile > div > div > div.about__section.active:nth-of-type(3) > div.about__section__title {
+.app-body #fedired > div > div > div.columns-area__panels > div.columns-area__panels__main > div.columns-area.columns-area--mobile > div > div > div.about__section.active:nth-of-type(3) > div.about__section__title {
     display: none;
 }
 .app-body .about__header p,
@@ -7286,10 +7285,10 @@ a:is(.active,
 
 
 /* 👋 Hide superfluous UI */
-.app-body div#mastodon > div > div > div:nth-child(2) > div:nth-child(3) > div > div > div:nth-child(3) > hr,
+.app-body div#fedired > div > div > div:nth-child(2) > div:nth-child(3) > div > div > div:nth-child(3) > hr,
 .app-body .navigation-panel__legal > hr,
 .app-body .about__footer, /* Hide meta footer */
-.app-body .server-banner__introduction, /* Hide generic mastodon server introduction in sidebar */
+.app-body .server-banner__introduction, /* Hide generic fedired server introduction in sidebar */
 .app-body .search-banner ~ .search, /* Hide search field for logged out users */
 .app-body .account__header__bio .account__header__fields > dl:first-child /* Hide "Joined" field on profiles */ {
     display: none;
