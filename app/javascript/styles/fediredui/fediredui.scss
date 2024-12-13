@@ -7,13 +7,13 @@
 
 /* 📄 Meta */
 :root {
-    --version: "v1.2.0-nvus1~";
+    --version: "v1.0.0-nvus~";
 
     --variant-name: "Purple";
     --variant-emoji: "\1FABB\00A0";
     --variant: var(--variant-emoji) var(--variant-name);
 
-    --meta: 'Fedired U: ' var(--version) ' \00B7 ' var(--variant);
+    --meta: 'by Javier Caceres: ' var(--version) ' \00B7 ' var(--variant);
 }
 
 /* 🎨 Colors */
