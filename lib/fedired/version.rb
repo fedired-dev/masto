@@ -5,11 +5,11 @@ module Fedired
     module_function
 
     def major
-      0
+      1
     end
 
     def minor
-      2
+      0
     end
 
     def patch
@@ -17,7 +17,7 @@ module Fedired
     end
 
     def default_prerelease
-      'alpha.2'
+      'alpha.1'
     end
 
     def prerelease
