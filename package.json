@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedired-dev/masto.git"
+    "url": "https://github.com/fedired-dev/fedired.git"
   },
   "private": true,
   "dependencies": {
