@@ -792,7 +792,7 @@
   "server_banner.server_stats": "Kiszolgálóstatisztika:",
   "sign_in_banner.create_account": "Fiók létrehozása",
   "sign_in_banner.follow_anyone": "Kövess bárkit a fediverzumon keresztül, és láss mindent időrendi sorrendben. Algoritmusok, hirdetések, kattintásvadászat nélkül.",
-  "sign_in_banner.mastodon_is": "A Fedired a legjobb módja annak, hogy a történésekkel kapcsolatban naprakész maradj.",
+  "sign_in_banner.fedired_is": "A Fedired a legjobb módja annak, hogy a történésekkel kapcsolatban naprakész maradj.",
   "sign_in_banner.sign_in": "Bejelentkezés",
   "sign_in_banner.sso_redirect": "Bejelentkezés vagy regisztráció",
   "status.admin_account": "Moderációs felület megnyitása @{name} fiókhoz",

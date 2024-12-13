@@ -1,7 +1,7 @@
 ---
 fo:
   about:
-    about_mastodon_html: 'Framtíðar sosiali miðilin: ongar lýsingar, eingin stórfyritøku-yvirvøka, etiskt snið og desentralisering! Eig tínar dátur við Fedired!'
+    about_fedired_html: 'Framtíðar sosiali miðilin: ongar lýsingar, eingin stórfyritøku-yvirvøka, etiskt snið og desentralisering! Eig tínar dátur við Fedired!'
     contact_missing: Ikki sett
     contact_unavailable: Ikki tøk/ur
     hosted_on: Fedired hýst á %{domain}

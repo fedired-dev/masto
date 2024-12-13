@@ -792,7 +792,7 @@
   "server_banner.server_stats": "Στατιστικά διακομιστή:",
   "sign_in_banner.create_account": "Δημιουργία λογαριασμού",
   "sign_in_banner.follow_anyone": "Ακολούθησε οποιονδήποτε κατά μήκος του fediverse και δες τα όλα με χρονολογική σειρά. Δεν υπάρχουν αλγόριθμοι, διαφημίσεις ή clickbait ούτε για δείγμα.",
-  "sign_in_banner.mastodon_is": "Το Fedired είναι ο καλύτερος τρόπος για να συμβαδίσεις με τα γεγονότα.",
+  "sign_in_banner.fedired_is": "Το Fedired είναι ο καλύτερος τρόπος για να συμβαδίσεις με τα γεγονότα.",
   "sign_in_banner.sign_in": "Σύνδεση",
   "sign_in_banner.sso_redirect": "Συνδεθείτε ή Εγγραφείτε",
   "status.admin_account": "Άνοιγμα διεπαφής συντονισμού για τον/την @{name}",

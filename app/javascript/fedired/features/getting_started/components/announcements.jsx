@@ -423,7 +423,7 @@ class Announcements extends ImmutablePureComponent {
 
     return (
       <div className='announcements'>
-        <img className='announcements__mastodon' alt='' draggable='false' src={mascot || elephantUIPlane} />
+        <img className='announcements__fedired' alt='' draggable='false' src={mascot || elephantUIPlane} />
 
         <div className='announcements__container'>
           <ReactSwipeableViews animateHeight animateTransitions={!reduceMotion} index={index} onChangeIndex={this.handleChangeIndex}>

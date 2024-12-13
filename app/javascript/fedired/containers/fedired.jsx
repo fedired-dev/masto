@@ -45,7 +45,7 @@ export default class Fedired extends PureComponent {
   }
 
   shouldUpdateScroll (prevRouterProps, { location }) {
-    return !(location.state?.mastodonModalKey && location.state?.mastodonModalKey !== prevRouterProps?.location?.state?.mastodonModalKey);
+    return !(location.state?.fediredModalKey && location.state?.fediredModalKey !== prevRouterProps?.location?.state?.fediredModalKey);
   }
 
   render () {

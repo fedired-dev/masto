@@ -1,7 +1,7 @@
 ---
 sr-Latn:
   about:
-    about_mastodon_html: 'Društvena mreža budućnosti: bez reklama, bez korporativnog praćenja, etički dizajn, i decentralizacija! Posedujte svoje podatke sa Fedired-om!'
+    about_fedired_html: 'Društvena mreža budućnosti: bez reklama, bez korporativnog praćenja, etički dizajn, i decentralizacija! Posedujte svoje podatke sa Fedired-om!'
     contact_missing: Nije postavljeno
     contact_unavailable: Nije dostupno
     hosted_on: Fedired hostovan na %{domain}

@@ -1,7 +1,7 @@
 ---
 zh-CN:
   about:
-    about_mastodon_html: 来自未来的社交网络：无广告、无监视、去中心化、合乎道德！加入 Fedired，掌控自己的数据！
+    about_fedired_html: 来自未来的社交网络：无广告、无监视、去中心化、合乎道德！加入 Fedired，掌控自己的数据！
     contact_missing: 未设定
     contact_unavailable: 未公开
     hosted_on: 运行在 %{domain} 上的 Fedired 实例

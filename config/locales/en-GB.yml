@@ -1,7 +1,7 @@
 ---
 en-GB:
   about:
-    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralisation! Own your data with Fedired!'
+    about_fedired_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralisation! Own your data with Fedired!'
     contact_missing: Not set
     contact_unavailable: N/A
     hosted_on: Fedired hosted on %{domain}

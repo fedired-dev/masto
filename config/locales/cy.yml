@@ -1,7 +1,7 @@
 ---
 cy:
   about:
-    about_mastodon_html: 'Rhwydwaith cymdeithasol y dyfodol: Dim hysbysebion, dim gwyliadwriaeth gorfforaethol, dylunio moesegol a datganoli! Chi sy berchen eich data gyda Fedired!'
+    about_fedired_html: 'Rhwydwaith cymdeithasol y dyfodol: Dim hysbysebion, dim gwyliadwriaeth gorfforaethol, dylunio moesegol a datganoli! Chi sy berchen eich data gyda Fedired!'
     contact_missing: Heb ei osodF
     contact_unavailable: Ddim yn berthnasol
     hosted_on: Fedired wedi ei weinyddu ar %{domain}

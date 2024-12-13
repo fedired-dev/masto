@@ -10,10 +10,10 @@ class Admin::Metrics::Dimension::SoftwareVersionsDimension < Admin::Metrics::Dim
   protected
 
   def perform_query
-    [mastodon_version, ruby_version, postgresql_version, redis_version, elasticsearch_version, libvips_version, imagemagick_version, ffmpeg_version].compact
+    [fedired_version, ruby_version, postgresql_version, redis_version, elasticsearch_version, libvips_version, imagemagick_version, ffmpeg_version].compact
   end
 
-  def mastodon_version
+  def fedired_version
     value = Fedired::Version.to_s
 
     {

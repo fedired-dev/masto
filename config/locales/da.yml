@@ -1,7 +1,7 @@
 ---
 da:
   about:
-    about_mastodon_html: 'Fremtidens sociale netværk: Ingen annoncer, ingen virksomhedsovervågning, etisk design og decentralisering! Vær ejer af egne data med Fedired!'
+    about_fedired_html: 'Fremtidens sociale netværk: Ingen annoncer, ingen virksomhedsovervågning, etisk design og decentralisering! Vær ejer af egne data med Fedired!'
     contact_missing: Ikke angivet
     contact_unavailable: Utilgængelig
     hosted_on: Fedired hostet på %{domain}

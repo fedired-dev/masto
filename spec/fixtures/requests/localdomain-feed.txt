@@ -11,7 +11,7 @@ Link: <https://social.sitedethib.com/.well-known/webfinger?resource=acct%3AThib%
 Vary: Accept-Encoding
 ETag: W/"1fa54baac599205a1e54c136dea2b671"
 Cache-Control: max-age=0, private, must-revalidate
-Set-Cookie: _mastodon_session=Vk5XbERyQ0NscjJhdEw1eVEyY3JwQTlBVThObUJ1N3NFcVlJaCtpNU5FSmZlTzFIZ2FqSzhVY1lneFlLQ1haNkh1SDM5L0FSdnFLTGwwTnhJMy9qWWI5aWRnM1NOU1NLTmtuamR5cG5Ebm8vekFNL20ydGkxYXFXU2FwVTF1NnctLXdxdFhNVFA2VmlFVm5BY25QU2N1clE9PQ%3D%3D--47e86fed56f94d3998bfc3837af8de93ec8c104e; path=/; secure; HttpOnly
+Set-Cookie: _fedired_session=Vk5XbERyQ0NscjJhdEw1eVEyY3JwQTlBVThObUJ1N3NFcVlJaCtpNU5FSmZlTzFIZ2FqSzhVY1lneFlLQ1haNkh1SDM5L0FSdnFLTGwwTnhJMy9qWWI5aWRnM1NOU1NLTmtuamR5cG5Ebm8vekFNL20ydGkxYXFXU2FwVTF1NnctLXdxdFhNVFA2VmlFVm5BY25QU2N1clE9PQ%3D%3D--47e86fed56f94d3998bfc3837af8de93ec8c104e; path=/; secure; HttpOnly
 X-Request-Id: 071ec889-04fb-4efa-b55e-81eb90772b50
 X-Runtime: 1.173933
 Strict-Transport-Security: max-age=31536000; includeSubDomains

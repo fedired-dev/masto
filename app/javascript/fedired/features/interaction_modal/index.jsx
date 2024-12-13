@@ -39,7 +39,7 @@ const mapDispatchToProps = (dispatch) => ({
   },
 });
 
-const PERSISTENCE_KEY = 'mastodon_home';
+const PERSISTENCE_KEY = 'fedired_home';
 
 const isValidDomain = value => {
   const url = new URL('https:///path');

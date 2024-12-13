@@ -1,7 +1,7 @@
 ---
 eu:
   about:
-    about_mastodon_html: 'Etorkizuneko sare soziala: ez iragarkirik eta ez zelatatze korporatiborik, diseinu etikoa eta deszentralizazioa! Izan zure datuen jabea Mastodonekin!'
+    about_fedired_html: 'Etorkizuneko sare soziala: ez iragarkirik eta ez zelatatze korporatiborik, diseinu etikoa eta deszentralizazioa! Izan zure datuen jabea Mastodonekin!'
     contact_missing: Ezarri gabe
     contact_unavailable: E/E
     hosted_on: Fedired %{domain} domeinuan ostatatua

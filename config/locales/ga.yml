@@ -1,7 +1,7 @@
 ---
 ga:
   about:
-    about_mastodon_html: 'Líonra sóisialta a sheasfaidh an aimsir: Gan fógraíocht, gan faire chorparáideach, le leagan amach eiticiúil agus dílárú. Bíodh do chuid sonraí agatsa féin le Fedired!'
+    about_fedired_html: 'Líonra sóisialta a sheasfaidh an aimsir: Gan fógraíocht, gan faire chorparáideach, le leagan amach eiticiúil agus dílárú. Bíodh do chuid sonraí agatsa féin le Fedired!'
     contact_missing: Gan socrú
     contact_unavailable: N/A
     hosted_on: Fedired arna óstáil ar %{domain}

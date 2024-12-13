@@ -1,7 +1,7 @@
 ---
 gd:
   about:
-    about_mastodon_html: 'An lìonra sòisealta dhan àm ri teachd: Gun sanasachd, gun chaithris corporra, dealbhadh beusail agus dì-mheadhanachadh! Gabh sealbh air an dàta agad fhèin le Fedired!'
+    about_fedired_html: 'An lìonra sòisealta dhan àm ri teachd: Gun sanasachd, gun chaithris corporra, dealbhadh beusail agus dì-mheadhanachadh! Gabh sealbh air an dàta agad fhèin le Fedired!'
     contact_missing: Cha deach a shuidheachadh
     contact_unavailable: Chan eil seo iomchaidh
     hosted_on: Fedired ’ga òstadh air %{domain}

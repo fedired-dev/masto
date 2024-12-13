@@ -1,7 +1,7 @@
 ---
 ja:
   about:
-    about_mastodon_html: Mastodonは、オープンなウェブプロトコルを採用した、自由でオープンソースなソーシャルネットワークです。電子メールのような分散型の仕組みを採っています。
+    about_fedired_html: Mastodonは、オープンなウェブプロトコルを採用した、自由でオープンソースなソーシャルネットワークです。電子メールのような分散型の仕組みを採っています。
     contact_missing: 未設定
     contact_unavailable: N/A
     hosted_on: Fedired hosted on %{domain}

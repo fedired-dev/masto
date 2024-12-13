@@ -1,7 +1,7 @@
 ---
 de:
   about:
-    about_mastodon_html: 'Das soziale Netzwerk der Zukunft: Keine Werbung, keine Überwachung durch Unternehmen – dafür dezentral und mit Anstand! Behalte mit Fedired die Kontrolle über deine Daten!'
+    about_fedired_html: 'Das soziale Netzwerk der Zukunft: Keine Werbung, keine Überwachung durch Unternehmen – dafür dezentral und mit Anstand! Behalte mit Fedired die Kontrolle über deine Daten!'
     contact_missing: Nicht festgelegt
     contact_unavailable: Nicht verfügbar
     hosted_on: Fedired, gehostet auf %{domain}

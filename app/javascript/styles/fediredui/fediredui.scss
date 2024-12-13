@@ -7000,7 +7000,7 @@ a:is(.active,
         margin-inline-start: -45px;
         margin-inline-end: -55px;
     }
-    .app-body .announcements__mastodon {
+    .app-body .announcements__fedired {
         border-radius: 0;
     }
 }
@@ -7316,7 +7316,7 @@ a:is(.active,
     width: 400px;
     padding-bottom: 0;
 }
-.layout-multiple-columns .drawer__inner__mastodon {
+.layout-multiple-columns .drawer__inner__fedired {
     display: none;
 }
 .layout-multiple-columns :is(.drawer__inner, .drawer__inner.darker) {
@@ -7703,7 +7703,7 @@ a:is(.active,
         [href*="/cats" i],
         [href*="catloaf" i],
         [href*="Caturday" i],
-        [href*="catsofmastodon" i],
+        [href*="catsoffedired" i],
         [href*="WhiskersWednesday" i]
     ):not(
         [href*="cath" i]
@@ -7718,7 +7718,7 @@ a:is(.active,
         [href$="dogs" i],
         [href*="/dog" i],
         [href*="DogLovers" i],
-        [href*="dogsofmastodon" i],
+        [href*="dogsoffedired" i],
         [href*="DogsOfFedi" i],
         [href*="dogstadon" i]
     )
@@ -7844,7 +7844,7 @@ a:is(.active,
         [href$="pridemonth" i],
         [href$="blm" i],
         [href$="blacklivesmatter" i],
-        [href$="blackmastodon" i],
+        [href$="blackfedired" i],
         [href$="blackfedi" i],
         [href*="protest" i],
         [href*="greve" i],

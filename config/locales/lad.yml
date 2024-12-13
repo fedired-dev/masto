@@ -1,7 +1,7 @@
 ---
 lad:
   about:
-    about_mastodon_html: 'La red sosyala del avenir: Sin reklamas, sin vijilansia korporativa, kon desen etiko, i desentralizasyon! Seas patron de tu enformasyon kon Fedired!'
+    about_fedired_html: 'La red sosyala del avenir: Sin reklamas, sin vijilansia korporativa, kon desen etiko, i desentralizasyon! Seas patron de tu enformasyon kon Fedired!'
     contact_missing: No espesifikado
     contact_unavailable: No desponivle
     hosted_on: Fedired balabayado en %{domain}

@@ -585,7 +585,7 @@ class Status extends ImmutablePureComponent {
 
   shouldUpdateScroll = (prevRouterProps, { location }) => {
     // Do not change scroll when opening a modal
-    if (location.state?.mastodonModalKey !== prevRouterProps?.location?.state?.mastodonModalKey) {
+    if (location.state?.fediredModalKey !== prevRouterProps?.location?.state?.fediredModalKey) {
       return false;
     }
 

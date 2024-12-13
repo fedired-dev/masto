@@ -1,7 +1,7 @@
 ---
 sco:
   about:
-    about_mastodon_html: 'The social network o wir future: Nae adverts, nae corporate surveillance; ethical design, an decentralization! Ain yer ain data wi Fedired!'
+    about_fedired_html: 'The social network o wir future: Nae adverts, nae corporate surveillance; ethical design, an decentralization! Ain yer ain data wi Fedired!'
     contact_missing: No set
     contact_unavailable: N/A
     hosted_on: Fedired hostit on %{domain}

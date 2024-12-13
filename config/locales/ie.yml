@@ -1,7 +1,7 @@
 ---
 ie:
   about:
-    about_mastodon_html: 'Li social rete del futur: sin reclams, sin supervision de corporationes, con un dessine etical e decentralisation! Repossede vor data med Fedired!'
+    about_fedired_html: 'Li social rete del futur: sin reclams, sin supervision de corporationes, con un dessine etical e decentralisation! Repossede vor data med Fedired!'
     contact_missing: Ne assignat
     contact_unavailable: Ne disponibil
     hosted_on: Fedired logiat che %{domain}

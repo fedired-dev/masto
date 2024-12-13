@@ -6,24 +6,24 @@ RSpec.describe SoftwareUpdate do
   describe '#pending?' do
     subject { described_class.new(version: update_version) }
 
-    before { allow(Fedired::Version).to receive(:gem_version).and_return(Gem::Version.new(mastodon_version)) }
+    before { allow(Fedired::Version).to receive(:gem_version).and_return(Gem::Version.new(fedired_version)) }
 
     context 'when the runtime version is older than the update' do
-      let(:mastodon_version) { '4.0.0' }
+      let(:fedired_version) { '4.0.0' }
       let(:update_version) { '5.0.0' }
 
       it { is_expected.to be_pending }
     end
 
     context 'when the runtime version is newer than the update' do
-      let(:mastodon_version) { '6.0.0' }
+      let(:fedired_version) { '6.0.0' }
       let(:update_version) { '5.0.0' }
 
       it { is_expected.to_not be_pending }
     end
 
     context 'when the runtime version is same as the update' do
-      let(:mastodon_version) { '4.0.0' }
+      let(:fedired_version) { '4.0.0' }
       let(:update_version) { '4.0.0' }
 
       it { is_expected.to_not be_pending }
@@ -33,24 +33,24 @@ RSpec.describe SoftwareUpdate do
   describe '#outdated?' do
     subject { described_class.new(version: update_version) }
 
-    before { allow(Fedired::Version).to receive(:gem_version).and_return(Gem::Version.new(mastodon_version)) }
+    before { allow(Fedired::Version).to receive(:gem_version).and_return(Gem::Version.new(fedired_version)) }
 
     context 'when the runtime version is older than the update' do
-      let(:mastodon_version) { '4.0.0' }
+      let(:fedired_version) { '4.0.0' }
       let(:update_version) { '5.0.0' }
 
       it { is_expected.to_not be_outdated }
     end
 
     context 'when the runtime version is newer than the update' do
-      let(:mastodon_version) { '6.0.0' }
+      let(:fedired_version) { '6.0.0' }
       let(:update_version) { '5.0.0' }
 
       it { is_expected.to be_outdated }
     end
 
     context 'when the runtime version is same as the update' do
-      let(:mastodon_version) { '4.0.0' }
+      let(:fedired_version) { '4.0.0' }
       let(:update_version) { '4.0.0' }
 
       it { is_expected.to be_outdated }
@@ -59,7 +59,7 @@ RSpec.describe SoftwareUpdate do
 
   describe '.pending_to_a' do
     before do
-      allow(Fedired::Version).to receive(:gem_version).and_return(Gem::Version.new(mastodon_version))
+      allow(Fedired::Version).to receive(:gem_version).and_return(Gem::Version.new(fedired_version))
 
       Fabricate(:software_update, version: '3.4.42', type: 'patch', urgent: true)
       Fabricate(:software_update, version: '3.5.0', type: 'minor', urgent: false)
@@ -67,7 +67,7 @@ RSpec.describe SoftwareUpdate do
     end
 
     context 'when the Fedired version is an outdated release' do
-      let(:mastodon_version) { '3.4.0' }
+      let(:fedired_version) { '3.4.0' }
 
       it 'returns the expected versions' do
         expect(described_class.pending_to_a.pluck(:version)).to contain_exactly('3.4.42', '3.5.0', '4.2.0')
@@ -75,7 +75,7 @@ RSpec.describe SoftwareUpdate do
     end
 
     context 'when the Fedired version is more recent than anything last returned by the server' do
-      let(:mastodon_version) { '5.0.0' }
+      let(:fedired_version) { '5.0.0' }
 
       it 'returns the expected versions' do
         expect(described_class.pending_to_a.pluck(:version)).to eq []
@@ -83,7 +83,7 @@ RSpec.describe SoftwareUpdate do
     end
 
     context 'when the Fedired version is an outdated nightly' do
-      let(:mastodon_version) { '4.3.0-nightly.2023-09-10' }
+      let(:fedired_version) { '4.3.0-nightly.2023-09-10' }
 
       before do
         Fabricate(:software_update, version: '4.3.0-nightly.2023-09-12', type: 'major', urgent: true)
@@ -95,7 +95,7 @@ RSpec.describe SoftwareUpdate do
     end
 
     context 'when the Fedired version is a very outdated nightly' do
-      let(:mastodon_version) { '4.2.0-nightly.2023-07-10' }
+      let(:fedired_version) { '4.2.0-nightly.2023-07-10' }
 
       it 'returns the expected versions' do
         expect(described_class.pending_to_a.pluck(:version)).to contain_exactly('4.2.0')
@@ -103,7 +103,7 @@ RSpec.describe SoftwareUpdate do
     end
 
     context 'when the Fedired version is an outdated dev version' do
-      let(:mastodon_version) { '4.3.0-0.dev.0' }
+      let(:fedired_version) { '4.3.0-0.dev.0' }
 
       before do
         Fabricate(:software_update, version: '4.3.0-0.dev.2', type: 'major', urgent: true)
@@ -115,7 +115,7 @@ RSpec.describe SoftwareUpdate do
     end
 
     context 'when the Fedired version is an outdated beta version' do
-      let(:mastodon_version) { '4.3.0-beta1' }
+      let(:fedired_version) { '4.3.0-beta1' }
 
       before do
         Fabricate(:software_update, version: '4.3.0-beta2', type: 'major', urgent: true)
@@ -127,7 +127,7 @@ RSpec.describe SoftwareUpdate do
     end
 
     context 'when the Fedired version is an outdated beta version and there is a rc' do
-      let(:mastodon_version) { '4.3.0-beta1' }
+      let(:fedired_version) { '4.3.0-beta1' }
 
       before do
         Fabricate(:software_update, version: '4.3.0-rc1', type: 'major', urgent: true)

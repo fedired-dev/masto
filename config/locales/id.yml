@@ -1,7 +1,7 @@
 ---
 id:
   about:
-    about_mastodon_html: 'Jaringan sosial masa depan: Tanpa iklan, tanpa pemantauan perusahaan, desain etis, dan terdesentralisasi! Miliki data Anda dengan Fedired!'
+    about_fedired_html: 'Jaringan sosial masa depan: Tanpa iklan, tanpa pemantauan perusahaan, desain etis, dan terdesentralisasi! Miliki data Anda dengan Fedired!'
     contact_missing: Belum ditetapkan
     contact_unavailable: Tidak Tersedia
     hosted_on: Fedired dihosting di %{domain}

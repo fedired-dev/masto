@@ -1,7 +1,7 @@
 ---
 lt:
   about:
-    about_mastodon_html: 'Ateities socialinis tinklas: jokių reklamų, jokių įmonių sekimo, etiškas dizainas ir decentralizacija! Turėk savo duomenis su Fedired.'
+    about_fedired_html: 'Ateities socialinis tinklas: jokių reklamų, jokių įmonių sekimo, etiškas dizainas ir decentralizacija! Turėk savo duomenis su Fedired.'
     contact_missing: Nenustatyta
     contact_unavailable: Nėra
     hosted_on: Fedired talpinamas %{domain}

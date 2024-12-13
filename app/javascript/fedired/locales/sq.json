@@ -787,7 +787,7 @@
   "server_banner.server_stats": "Statistika shërbyesi:",
   "sign_in_banner.create_account": "Krijoni llogari",
   "sign_in_banner.follow_anyone": "Ndiqni këdo në Fedivers dhe shihni gjithçka në rend kohor. Pa algortime, apo marifete.",
-  "sign_in_banner.mastodon_is": "Fedired-i është rruga më e mirë për të ndjekur se ç’ndodh.",
+  "sign_in_banner.fedired_is": "Fedired-i është rruga më e mirë për të ndjekur se ç’ndodh.",
   "sign_in_banner.sign_in": "Hyni",
   "sign_in_banner.sso_redirect": "Bëni hyrjen, ose Regjistrohuni",
   "status.admin_account": "Hap ndërfaqe moderimi për @{name}",

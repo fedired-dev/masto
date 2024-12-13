@@ -1,7 +1,7 @@
 ---
 oc:
   about:
-    about_mastodon_html: Fedired es un malhum social bastit amb de protocòls liures e gratuits. Es descentralizat coma los corrièls.
+    about_fedired_html: Fedired es un malhum social bastit amb de protocòls liures e gratuits. Es descentralizat coma los corrièls.
     contact_missing: Pas parametrat
     contact_unavailable: Pas disponible
     hosted_on: Fedired albergat sus %{domain}

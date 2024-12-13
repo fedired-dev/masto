@@ -1,7 +1,7 @@
 ---
 fy:
   about:
-    about_mastodon_html: Fedired is in sosjaal netwurk dat gebrûk makket fan iepen webprotokollen en frije software. It is krekt lykas desintralisearre e-mail!
+    about_fedired_html: Fedired is in sosjaal netwurk dat gebrûk makket fan iepen webprotokollen en frije software. It is krekt lykas desintralisearre e-mail!
     contact_missing: Net ynsteld
     contact_unavailable: Net fan tapassing
     hosted_on: Fedired op %{domain}

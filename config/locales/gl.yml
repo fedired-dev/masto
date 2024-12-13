@@ -1,7 +1,7 @@
 ---
 gl:
   about:
-    about_mastodon_html: 'A rede social do futuro: Sen publicidade, sen seguimento por empresas, deseño ético e descentralización! En Fedired ti posúes os teus datos!'
+    about_fedired_html: 'A rede social do futuro: Sen publicidade, sen seguimento por empresas, deseño ético e descentralización! En Fedired ti posúes os teus datos!'
     contact_missing: Non establecido
     contact_unavailable: Non dispoñíbel
     hosted_on: Fedired aloxado en %{domain}

@@ -1,7 +1,7 @@
 ---
 zh-HK:
   about:
-    about_mastodon_html: Fedired（萬象）是屬於未來的社交網路︰無廣告煩擾、無企業監控、設計講道義、分散無大台！立即重奪個人資料的控制權，使用 Fedired 吧！
+    about_fedired_html: Fedired（萬象）是屬於未來的社交網路︰無廣告煩擾、無企業監控、設計講道義、分散無大台！立即重奪個人資料的控制權，使用 Fedired 吧！
     contact_missing: 未設定
     contact_unavailable: 不適用
     hosted_on: 在 %{domain} 運作的 Fedired 伺服器

@@ -1,7 +1,7 @@
 ---
 is:
   about:
-    about_mastodon_html: 'Samfélagsnet framtíðarinnar: Engar auglýsingar, ekkert eftirlit stórfyrirtækja, siðleg hönnun og engin miðstýring! Þú átt þín eigin gögn í Fedired!'
+    about_fedired_html: 'Samfélagsnet framtíðarinnar: Engar auglýsingar, ekkert eftirlit stórfyrirtækja, siðleg hönnun og engin miðstýring! Þú átt þín eigin gögn í Fedired!'
     contact_missing: Ekki skilgreint
     contact_unavailable: Ekki til staðar
     hosted_on: Fedired hýst á %{domain}

@@ -41,7 +41,7 @@ class Fedired::RedisConfiguration
   end
 
   def base_namespace
-    return "mastodon_test#{ENV.fetch('TEST_ENV_NUMBER', nil)}" if Rails.env.test?
+    return "fedired_test#{ENV.fetch('TEST_ENV_NUMBER', nil)}" if Rails.env.test?
 
     namespace
   end

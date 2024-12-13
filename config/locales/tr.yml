@@ -1,7 +1,7 @@
 ---
 tr:
   about:
-    about_mastodon_html: Fedired <em>ücretsiz ve açık kaynaklı</em> bir sosyal ağdır. <em>Merkezi olmayan</em> yapısı sayesinde diğer ticari sosyal platformların aksine iletişimininizin tek bir firmada tutulmasının/yönetilmesinin önüne geçer. Güvendiğiniz bir sunucuyu seçerek oradaki kişilerle etkileşimde bulunabilirsiniz. Herkes kendi Fedired sunucusunu kurabilir ve sorunsuz bir şekilde Fedired <em>sosyal ağına</em> dahil edebilir!
+    about_fedired_html: Fedired <em>ücretsiz ve açık kaynaklı</em> bir sosyal ağdır. <em>Merkezi olmayan</em> yapısı sayesinde diğer ticari sosyal platformların aksine iletişimininizin tek bir firmada tutulmasının/yönetilmesinin önüne geçer. Güvendiğiniz bir sunucuyu seçerek oradaki kişilerle etkileşimde bulunabilirsiniz. Herkes kendi Fedired sunucusunu kurabilir ve sorunsuz bir şekilde Fedired <em>sosyal ağına</em> dahil edebilir!
     contact_missing: Ayarlanmadı
     contact_unavailable: Bulunamadı
     hosted_on: Fedired %{domain} üzerinde barındırılıyor

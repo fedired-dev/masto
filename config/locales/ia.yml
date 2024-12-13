@@ -1,7 +1,7 @@
 ---
 ia:
   about:
-    about_mastodon_html: 'Le rete social del futuro: nulle publicitate, nulle surveliantia corporative, conception ethic, e decentralisation! Mantene le controlo de tu datos con Fedired!'
+    about_fedired_html: 'Le rete social del futuro: nulle publicitate, nulle surveliantia corporative, conception ethic, e decentralisation! Mantene le controlo de tu datos con Fedired!'
     contact_missing: Non definite
     contact_unavailable: N/D
     hosted_on: Fedired albergate sur %{domain}

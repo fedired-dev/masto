@@ -16,7 +16,7 @@ RSpec.describe 'Share page', :js, :streaming do
     visit share_path
 
     expect(page)
-      .to have_css('.modal-layout__mastodon')
+      .to have_css('.modal-layout__fedired')
       .and have_css('div#fedired-compose')
       .and have_css('.compose-form__submit')
 

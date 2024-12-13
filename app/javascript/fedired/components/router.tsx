@@ -15,7 +15,7 @@ import { isDevelopment } from 'fedired/utils/environment';
 
 interface MastodonLocationState {
   fromMastodon?: boolean;
-  mastodonModalKey?: string;
+  fediredModalKey?: string;
 }
 
 type LocationState = MastodonLocationState | null | undefined;

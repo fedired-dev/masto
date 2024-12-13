@@ -1,7 +1,7 @@
 ---
 pt-BR:
   about:
-    about_mastodon_html: 'A rede social do futuro: Sem anúncios, sem vigilância corporativa, com design ético e muita descentralização! Possua seus próprios dados com o Fedired!'
+    about_fedired_html: 'A rede social do futuro: Sem anúncios, sem vigilância corporativa, com design ético e muita descentralização! Possua seus próprios dados com o Fedired!'
     contact_missing: Não definido
     contact_unavailable: Não disponível
     hosted_on: Fedired hospedado em %{domain}

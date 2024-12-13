@@ -1,7 +1,7 @@
 ---
 zh-TW:
   about:
-    about_mastodon_html: Fedired （長毛象）是一個<em>自由、開放原始碼</em>的社群網站。它是一個分散式的服務，避免您的通訊被單一商業機構壟斷操控。請您選擇一家您信任的 Fedired 站點，於其建立帳號，您就能與任一 Fedired 站點上的使用者互通，享受無縫的<em>社群網路</em>交流。
+    about_fedired_html: Fedired （長毛象）是一個<em>自由、開放原始碼</em>的社群網站。它是一個分散式的服務，避免您的通訊被單一商業機構壟斷操控。請您選擇一家您信任的 Fedired 站點，於其建立帳號，您就能與任一 Fedired 站點上的使用者互通，享受無縫的<em>社群網路</em>交流。
     contact_missing: 未設定
     contact_unavailable: 未公開
     hosted_on: 於 %{domain} 託管之 Fedired 站點

@@ -792,7 +792,7 @@
   "server_banner.server_stats": "서버 통계:",
   "sign_in_banner.create_account": "계정 생성",
   "sign_in_banner.follow_anyone": "페디버스를 통해 누구든지 팔로우하고 시간순으로 게시물을 받아보세요. 알고리즘도, 광고도, 클릭을 유도하는 것들도 없습니다.",
-  "sign_in_banner.mastodon_is": "마스토돈은 무엇이 일어나는지 받아보는 가장 좋은 수단입니다.",
+  "sign_in_banner.fedired_is": "마스토돈은 무엇이 일어나는지 받아보는 가장 좋은 수단입니다.",
   "sign_in_banner.sign_in": "로그인",
   "sign_in_banner.sso_redirect": "로그인 또는 가입하기",
   "status.admin_account": "@{name}에 대한 중재 화면 열기",

@@ -10,14 +10,14 @@ default: &default
 development:
   primary:
     <<: *default
-    database: <%= ENV['DB_NAME'] || 'mastodon_development' %>
+    database: <%= ENV['DB_NAME'] || 'fedired_development' %>
     username: <%= ENV['DB_USER'] %>
     password: <%= (ENV['DB_PASS'] || '').to_json %>
     host: <%= ENV['DB_HOST'] %>
     port: <%= ENV['DB_PORT'] %>
   replica:
     <<: *default
-    database: <%= ENV['DB_NAME'] || 'mastodon_development' %>
+    database: <%= ENV['DB_NAME'] || 'fedired_development' %>
     username: <%= ENV['DB_USER'] %>
     password: <%= (ENV['DB_PASS'] || '').to_json %>
     host: <%= ENV['DB_HOST'] %>

@@ -112,15 +112,15 @@ class ModalRoot extends PureComponent {
       this.unlistenHistory();
     }
     const { state } = this.history.location;
-    if (state && state.mastodonModalKey === this._modalHistoryKey) {
+    if (state && state.fediredModalKey === this._modalHistoryKey) {
       this.history.goBack();
     }
   }
 
   _ensureHistoryBuffer () {
     const { pathname, state } = this.history.location;
-    if (!state || state.mastodonModalKey !== this._modalHistoryKey) {
-      this.history.push(pathname, { ...state, mastodonModalKey: this._modalHistoryKey });
+    if (!state || state.fediredModalKey !== this._modalHistoryKey) {
+      this.history.push(pathname, { ...state, fediredModalKey: this._modalHistoryKey });
     }
   }
 

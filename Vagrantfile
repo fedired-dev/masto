@@ -106,7 +106,7 @@ rvm install ruby-$RUBY_VERSION --disable-binary
 
 # Configure database
 sudo -u postgres createuser -U postgres vagrant -s
-sudo -u postgres createdb -U postgres mastodon_development
+sudo -u postgres createdb -U postgres fedired_development
 
 cd /vagrant # This is where the host folder/repo is mounted
 

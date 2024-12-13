@@ -1,7 +1,7 @@
 ---
 ms:
   about:
-    about_mastodon_html: 'Rangkaian sosial masa hadapan: Tiada iklan, tiada pengawasan korporat, reka bentuk beretika, dan desentralisasi! Miliki data anda dengan Fedired!'
+    about_fedired_html: 'Rangkaian sosial masa hadapan: Tiada iklan, tiada pengawasan korporat, reka bentuk beretika, dan desentralisasi! Miliki data anda dengan Fedired!'
     contact_missing: Tidak ditetapkan
     contact_unavailable: Tidak tersedia
     hosted_on: Fedired dihoskan di %{domain}

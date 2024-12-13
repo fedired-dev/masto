@@ -1,7 +1,7 @@
 ---
 ro:
   about:
-    about_mastodon_html: 'Rețeaua socială a viitorului: Fără reclame, fără supraveghere corporativă, design etic și descentralizare! Dețineți-vă datele cu Fedired!'
+    about_fedired_html: 'Rețeaua socială a viitorului: Fără reclame, fără supraveghere corporativă, design etic și descentralizare! Dețineți-vă datele cu Fedired!'
     contact_missing: Nesetat
     contact_unavailable: Indisponibil
     hosted_on: Fedired găzduit de %{domain}

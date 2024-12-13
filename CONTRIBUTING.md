@@ -52,4 +52,4 @@ It is not always possible to phrase every change in such a manner, but it is des
 
 ## Documentation
 
-The [Fedired documentation](https://docs.joinmastodon.org) is a statically generated site. You can [submit merge requests to fedired/documentation](https://github.com/fedired/documentation).
+The [Fedired documentation](https://docs.joinfedired.org) is a statically generated site. You can [submit merge requests to fedired/documentation](https://github.com/fedired/documentation).

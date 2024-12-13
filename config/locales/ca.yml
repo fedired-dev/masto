@@ -1,7 +1,7 @@
 ---
 ca:
   about:
-    about_mastodon_html: 'La xarxa social del futur: sense anuncis, sense vigilància corporativa, amb un disseny ètic i descentralització. Amb Fedired controles les teves dades!'
+    about_fedired_html: 'La xarxa social del futur: sense anuncis, sense vigilància corporativa, amb un disseny ètic i descentralització. Amb Fedired controles les teves dades!'
     contact_missing: No configurat
     contact_unavailable: N/D
     hosted_on: Fedired allotjat a %{domain}

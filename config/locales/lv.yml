@@ -1,7 +1,7 @@
 ---
 lv:
   about:
-    about_mastodon_html: 'Nākotnes sabiedriskais tīkls: bez reklāmām, bez korporatīvās novērošanas, ētiska projektēšana un decentralizēšana. Pārvaldi savus datus ar Fedired!'
+    about_fedired_html: 'Nākotnes sabiedriskais tīkls: bez reklāmām, bez korporatīvās novērošanas, ētiska projektēšana un decentralizēšana. Pārvaldi savus datus ar Fedired!'
     contact_missing: Nav uzstādīts
     contact_unavailable: N/A
     hosted_on: Fedired mitināts %{domain}

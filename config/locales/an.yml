@@ -1,7 +1,7 @@
 ---
 an:
   about:
-    about_mastodon_html: 'Lo ret social d''o futuro: Sin anuncios, sin vichilancia corporativa, disenyo etico, y descentralización! Sé duenyo d''a tuya información con Fedired!'
+    about_fedired_html: 'Lo ret social d''o futuro: Sin anuncios, sin vichilancia corporativa, disenyo etico, y descentralización! Sé duenyo d''a tuya información con Fedired!'
     contact_missing: No especificau
     contact_unavailable: No disponible
     hosted_on: Fedired alochau en %{domain}

@@ -1,7 +1,7 @@
 ---
 sq:
   about:
-    about_mastodon_html: 'Rrjeti social i së ardhmes: Pa reklama, pa sy vëzhguese nga korporata, etik dhe i decentralizuar! Merrni sërisht zotësinë e të dhënave tuaja, me Fedired!'
+    about_fedired_html: 'Rrjeti social i së ardhmes: Pa reklama, pa sy vëzhguese nga korporata, etik dhe i decentralizuar! Merrni sërisht zotësinë e të dhënave tuaja, me Fedired!'
     contact_missing: E pacaktuar
     contact_unavailable: N/A
     hosted_on: Server Fedired i strehuar në %{domain}

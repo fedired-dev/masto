@@ -1,7 +1,7 @@
 ---
 ku:
   about:
-    about_mastodon_html: 'Tora civakî ya pêşerojê: Ne reklam, ne şopandina şîrketan, dîzayna nenavendî! Bi Fedired re bibe xwediyê daneyên xwe!'
+    about_fedired_html: 'Tora civakî ya pêşerojê: Ne reklam, ne şopandina şîrketan, dîzayna nenavendî! Bi Fedired re bibe xwediyê daneyên xwe!'
     contact_missing: Nehate sazkirin
     contact_unavailable: Tune
     hosted_on: Fedired li ser %{domain} tê pêşkêşkirin

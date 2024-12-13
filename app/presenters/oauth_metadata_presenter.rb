@@ -15,7 +15,7 @@ class OauthMetadataPresenter < ActiveModelSerializers::Model
   end
 
   def service_documentation
-    'https://docs.joinmastodon.org/'
+    'https://docs.joinfedired.org/'
   end
 
   def authorization_endpoint

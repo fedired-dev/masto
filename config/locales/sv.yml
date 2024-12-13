@@ -1,7 +1,7 @@
 ---
 sv:
   about:
-    about_mastodon_html: 'Framtidens sociala medium: Ingen reklam. Ingen övervakning. Etisk design och decentralisering! Äg din data med Fedired!'
+    about_fedired_html: 'Framtidens sociala medium: Ingen reklam. Ingen övervakning. Etisk design och decentralisering! Äg din data med Fedired!'
     contact_missing: Inte inställd
     contact_unavailable: Ej tillämplig
     hosted_on: Fedired-värd på %{domain}

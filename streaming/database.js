@@ -14,7 +14,7 @@ export function configFromEnv(env, environment) {
     development: {
       user: env.DB_USER || pg.defaults.user,
       password: env.DB_PASS || pg.defaults.password,
-      database: env.DB_NAME || 'mastodon_development',
+      database: env.DB_NAME || 'fedired_development',
       host: env.DB_HOST || pg.defaults.host,
       port: parseIntFromEnvValue(env.DB_PORT, pg.defaults.port ?? 5432, 'DB_PORT')
     },

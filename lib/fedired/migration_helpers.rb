@@ -48,7 +48,7 @@ module Fedired
 
         super "The index `#{index_name}` seems to be corrupted, it contains duplicate rows. " \
           'For information on how to fix this, see our documentation: ' \
-          'https://docs.joinmastodon.org/admin/troubleshooting/index-corruption/'
+          'https://docs.joinfedired.org/admin/troubleshooting/index-corruption/'
       end
 
       def cause

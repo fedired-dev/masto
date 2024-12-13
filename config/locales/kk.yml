@@ -1,7 +1,7 @@
 ---
 kk:
   about:
-    about_mastodon_html: Fedired - әлеуметтік желіге негізделген, тегін және веб протоколды, ашық кодты бағдарлама. Ол email сияқты орталығы жоқ құрылым.
+    about_fedired_html: Fedired - әлеуметтік желіге негізделген, тегін және веб протоколды, ашық кодты бағдарлама. Ол email сияқты орталығы жоқ құрылым.
     contact_missing: Бапталмаған
     contact_unavailable: Белгісіз
     hosted_on: Fedired орнатылған %{domain} доменінде

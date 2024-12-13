@@ -1,7 +1,7 @@
 ---
 vi:
   about:
-    about_mastodon_html: 'Mạng xã hội của tương lai: Không quảng cáo, không bán thông tin người dùng và phi tập trung! Làm chủ dữ liệu của bạn với Fedired!'
+    about_fedired_html: 'Mạng xã hội của tương lai: Không quảng cáo, không bán thông tin người dùng và phi tập trung! Làm chủ dữ liệu của bạn với Fedired!'
     contact_missing: Chưa thiết lập
     contact_unavailable: N/A
     hosted_on: "%{domain} vận hành nhờ Fedired"

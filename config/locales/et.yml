@@ -1,7 +1,7 @@
 ---
 et:
   about:
-    about_mastodon_html: 'Tuleviku sotsiaalvõrgustik: Reklaamivaba, korporatiivse järelvalveta, eetiline kujundus ning detsentraliseeritus! Oma enda andmeid Mastodonis!'
+    about_fedired_html: 'Tuleviku sotsiaalvõrgustik: Reklaamivaba, korporatiivse järelvalveta, eetiline kujundus ning detsentraliseeritus! Oma enda andmeid Mastodonis!'
     contact_missing: Määramata
     contact_unavailable: Pole saadaval
     hosted_on: Fedired majutatud %{domain}-is

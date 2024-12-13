@@ -99,8 +99,8 @@ class ManifestSerializer < ActiveModel::Serializer
     [
       {
         platform: 'play',
-        url: 'https://play.google.com/store/apps/details?id=org.joinmastodon.android',
-        id: 'org.joinmastodon.android',
+        url: 'https://play.google.com/store/apps/details?id=org.joinfedired.android',
+        id: 'org.joinfedired.android',
       },
       {
         platform: 'itunes',
@@ -109,8 +109,8 @@ class ManifestSerializer < ActiveModel::Serializer
       },
       {
         platform: 'f-droid',
-        url: 'https://f-droid.org/en/packages/org.joinmastodon.android/',
-        id: 'org.joinmastodon.android',
+        url: 'https://f-droid.org/en/packages/org.joinfedired.android/',
+        id: 'org.joinfedired.android',
       },
     ]
   end

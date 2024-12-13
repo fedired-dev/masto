@@ -1,7 +1,7 @@
 ---
 nn:
   about:
-    about_mastodon_html: 'Framtidas sosiale nettverk: Ingen annonsar, ingen verksemder som overvaker deg, etisk design og desentralisering! Eig dataene dine med Fedired!'
+    about_fedired_html: 'Framtidas sosiale nettverk: Ingen annonsar, ingen verksemder som overvaker deg, etisk design og desentralisering! Eig dataene dine med Fedired!'
     contact_missing: Ikkje sett
     contact_unavailable: I/T
     hosted_on: "%{domain} er vert for Fedired"

@@ -801,7 +801,7 @@ const startServer = async () => {
                 // results is an Array of FilterResult; status_matches is always
                 // null as we only are only applying the keyword-based custom
                 // filters, not the status-based custom filters.
-                // https://docs.joinmastodon.org/entities/FilterResult/
+                // https://docs.joinfedired.org/entities/FilterResult/
                 results.push({
                   filter: cachedFilter.filter,
                   keyword_matches,
@@ -817,7 +817,7 @@ const startServer = async () => {
             // have been either `update` or `status.update`, meaning the
             // `payload` is a Status entity, which has a `filtered` property:
             //
-            // filtered: https://docs.joinmastodon.org/entities/Status/#filtered
+            // filtered: https://docs.joinfedired.org/entities/Status/#filtered
             transmit(event, {
               ...payload,
               filtered: filter_results

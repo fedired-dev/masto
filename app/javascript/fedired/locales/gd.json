@@ -753,7 +753,7 @@
   "server_banner.server_stats": "Stadastaireachd an fhrithealaiche:",
   "sign_in_banner.create_account": "Cruthaich cunntas",
   "sign_in_banner.follow_anyone": "Lean duine sam bith air a’ cho-shaoghal agus faic a h-uile càil a-rèir an ama. Chan eil sgeul air algairimean, sanasachd no clickbait.",
-  "sign_in_banner.mastodon_is": "Is Fedired an dòigh as fheàrr airson sùil a chumail air na tha a’ dol.",
+  "sign_in_banner.fedired_is": "Is Fedired an dòigh as fheàrr airson sùil a chumail air na tha a’ dol.",
   "sign_in_banner.sign_in": "Clàraich a-steach",
   "sign_in_banner.sso_redirect": "Clàraich a-steach no clàraich leinn",
   "status.admin_account": "Fosgail eadar-aghaidh na maorsainneachd dha @{name}",
