@@ -1,0 +1,12 @@
+[Unit]
+Description=fedired-streaming
+After=network.target
+Wants=fedired-streaming@4000.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/echo "fedired-streaming exists only to collectively start and stop fedired-streaming@ instances, shimming over the migration to templated fedired-streaming systemd unit"
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

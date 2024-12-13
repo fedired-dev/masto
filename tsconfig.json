@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "esnext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "incremental": true,
+    "tsBuildInfoFile": "tmp/cache/tsconfig.tsbuildinfo",
+    "paths": {
+      "fedired": ["app/javascript/fedired"],
+      "fedired/*": ["app/javascript/fedired/*"],
+      "@/*": ["app/javascript/*"]
+    }
+  },
+  "include": [
+    "app/javascript/fedired",
+    "app/javascript/entrypoints",
+    "app/javascript/types"
+  ]
+}

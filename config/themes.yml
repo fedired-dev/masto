@@ -1,0 +1,2 @@
+default: styles/fediredui.scss
+contrast: styles/contrast.scss
