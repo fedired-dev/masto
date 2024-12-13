@@ -60,7 +60,7 @@ RSpec.describe Account::FinderConcern do
       end
 
       it 'returns case-insensitive result' do
-        expect(Account.find_remote('ALICE', 'MASTODON.SOCIAL')).to eq(account)
+        expect(Account.find_remote('ALICE', 'FEDIRED.SOCIAL')).to eq(account)
       end
 
       it 'returns nil when username does not match' do

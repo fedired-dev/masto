@@ -95,7 +95,7 @@ module Fedired
       require 'fedired/redis_configuration'
       ::REDIS_CONFIGURATION = Fedired::RedisConfiguration.new
 
-      config.x.use_vips = ENV['MASTODON_USE_LIBVIPS'] == 'true'
+      config.x.use_vips = ENV['FEDIRED_USE_LIBVIPS'] == 'true'
 
       if config.x.use_vips
         require_relative '../lib/paperclip/vips_lazy_thumbnail'

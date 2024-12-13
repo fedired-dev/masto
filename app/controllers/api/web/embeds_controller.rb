@@ -18,7 +18,7 @@ class Api::Web::EmbedsController < Api::Web::BaseController
       return not_found if oembed.nil?
 
       begin
-        oembed[:html] = Sanitize.fragment(oembed[:html], Sanitize::Config::MASTODON_OEMBED)
+        oembed[:html] = Sanitize.fragment(oembed[:html], Sanitize::Config::FEDIRED_OEMBED)
       rescue ArgumentError
         return not_found
       end

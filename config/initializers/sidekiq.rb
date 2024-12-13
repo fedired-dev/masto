@@ -7,9 +7,9 @@ Sidekiq.configure_server do |config|
 
   # This is used in Kubernetes setups, to signal that the Sidekiq process has started and will begin processing jobs
   # This comes from https://github.com/sidekiq/sidekiq/wiki/Kubernetes#sidekiq
-  ready_filename = ENV.fetch('MASTODON_SIDEKIQ_READY_FILENAME', nil)
+  ready_filename = ENV.fetch('FEDIRED_SIDEKIQ_READY_FILENAME', nil)
   if ready_filename
-    raise 'MASTODON_SIDEKIQ_READY_FILENAME is not a valid filename' if File.basename(ready_filename) != ready_filename
+    raise 'FEDIRED_SIDEKIQ_READY_FILENAME is not a valid filename' if File.basename(ready_filename) != ready_filename
 
     ready_path = Rails.root.join('tmp', ready_filename)
 

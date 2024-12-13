@@ -21,11 +21,11 @@ module Fedired
     end
 
     def prerelease
-      ENV['MASTODON_VERSION_PRERELEASE'].presence || default_prerelease
+      ENV['FEDIRED_VERSION_PRERELEASE'].presence || default_prerelease
     end
 
     def build_metadata
-      ENV.fetch('MASTODON_VERSION_METADATA', nil)
+      ENV.fetch('FEDIRED_VERSION_METADATA', nil)
     end
 
     def to_a

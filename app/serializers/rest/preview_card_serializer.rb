@@ -24,6 +24,6 @@ class REST::PreviewCardSerializer < ActiveModel::Serializer
   end
 
   def html
-    Sanitize.fragment(object.html, Sanitize::Config::MASTODON_OEMBED)
+    Sanitize.fragment(object.html, Sanitize::Config::FEDIRED_OEMBED)
   end
 end

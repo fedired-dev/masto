@@ -102,7 +102,7 @@ class Sanitize
       math.replace(math.document.create_text_node(annotation.text)) unless annotation.nil?
     end
 
-    MASTODON_STRICT = freeze_config(
+    FEDIRED_STRICT = freeze_config(
       elements: %w(p br span a del s pre blockquote code b strong u i em ul ol li ruby rt rp),
 
       attributes: {
@@ -130,7 +130,7 @@ class Sanitize
       ]
     )
 
-    MASTODON_OEMBED = freeze_config(
+    FEDIRED_OEMBED = freeze_config(
       elements: %w(audio embed iframe source video),
 
       attributes: {

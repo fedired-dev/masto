@@ -15,12 +15,12 @@ ARG DEBIAN_VERSION="bookworm"
 # Node image to use for base image based on combined variables (ex: 20-bookworm-slim)
 FROM docker.io/node:${NODE_MAJOR_VERSION}-${DEBIAN_VERSION}-slim AS streaming
 
-# Resulting version string is vX.X.X-MASTODON_VERSION_PRERELEASE+MASTODON_VERSION_METADATA
+# Resulting version string is vX.X.X-FEDIRED_VERSION_PRERELEASE+FEDIRED_VERSION_METADATA
 # Example: v4.3.0-nightly.2023.11.09+pr-123456
-# Overwrite existence of 'alpha.X' in version.rb [--build-arg MASTODON_VERSION_PRERELEASE="nightly.2023.11.09"]
-ARG MASTODON_VERSION_PRERELEASE=""
-# Append build metadata or fork information to version.rb [--build-arg MASTODON_VERSION_METADATA="pr-123456"]
-ARG MASTODON_VERSION_METADATA=""
+# Overwrite existence of 'alpha.X' in version.rb [--build-arg FEDIRED_VERSION_PRERELEASE="nightly.2023.11.09"]
+ARG FEDIRED_VERSION_PRERELEASE=""
+# Append build metadata or fork information to version.rb [--build-arg FEDIRED_VERSION_METADATA="pr-123456"]
+ARG FEDIRED_VERSION_METADATA=""
 
 # Timezone used by the Docker container and runtime, change with [--build-arg TZ=Europe/Berlin]
 ARG TZ="Etc/UTC"
@@ -32,8 +32,8 @@ ARG GID="991"
 # Apply Fedired build options based on options above
 ENV \
 # Apply Fedired version information
-  MASTODON_VERSION_PRERELEASE="${MASTODON_VERSION_PRERELEASE}" \
-  MASTODON_VERSION_METADATA="${MASTODON_VERSION_METADATA}" \
+  FEDIRED_VERSION_PRERELEASE="${FEDIRED_VERSION_PRERELEASE}" \
+  FEDIRED_VERSION_METADATA="${FEDIRED_VERSION_METADATA}" \
 # Apply timezone
   TZ=${TZ}
 
