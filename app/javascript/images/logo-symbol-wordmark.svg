@@ -129,8 +129,5 @@
 <g><path style="opacity:0.008" fill="#36116d" d="M 56.5,58.5 C 55.8333,59.1667 55.8333,59.1667 56.5,58.5 Z"/></g>
 <g><path style="opacity:0.004" fill="#33116b" d="M 16.5,60.5 C 28.9933,59.34 41.6599,59.1733 54.5,60C 41.8377,60.4999 29.1711,60.6666 16.5,60.5 Z" fill="currentColor"/><defs>
 <linearGradient id="paint0_linear_89_11" x1="30.5" y1="0.0130005" x2="30.5" y2="65.013" gradientUnits="userSpaceOnUse">
-<stop stop-color="#6364FF"/>
-<stop offset="1" stop-color="#563ACC"/>
-</linearGradient>
-</defs></symbol><use xlink:href="#logo-symbol-wordmark"/>
+
 </svg>
